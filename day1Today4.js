@@ -215,6 +215,90 @@ function garde (score){
 // let str = "sagar";
 // for(let i =str.length-1; i>=0; i--){
 //     console.log(str[i]);
-// };
+// for(let i=1; i<=50; i++){
+//     if(i%3 == 0){
+//         console.log(i);
+//     }else;
+// }
+// let result= 1;
+// for(let i=1; i<=5; i++){
+// result *= i;
+// // console.log(result);
+// }
+// console.log(result);
+//  let strings = "sagar";
+//  for(let i = strings.length-1;i>=0; i--){
+//     console.log(strings[i]);
+//  }
+// for (let i=0; i<=50; i++){
+//     if(i %3 == 0){
+//         console.log(i)
+//     }else;
+// }
+// let result = 1;
+// for(let i = 5; i>1; i--){
+//  result *= i; 
+// }
+//  console.log(result);
+// let sum = 0;
+// for(let i=1; i<=100; i++){
+//     if(i%2==0){
+//        sum += i;
+//     }else;
+// }
+// console.log(sum);
+// let result = 0;
+//  for (let i = 1; i<100; i++){
+//     if(i % 7 == 0){
+//         result++;
 
-c
+//     }
+//  }
+//  console.log(result);
+//  let arry = [1,2,3,4,5,25,2,13];
+//  let largest = 0;
+//  for(let i =0; i<=arry.length; i++){
+//     if(arry[i] > largest ){
+//         largest = arry[i];
+//     }
+//  }
+// console.log(largest);
+
+// let result = 1;
+// for(let i = 2; i<20; i+=2){
+//   result = result *2;
+//   console.log(result);
+// }
+// for (let i = 15; i<=25; i++){
+//     console.log(i);
+// }
+// for (let i = 11; i<31; i++){
+//     if (i%2== 1){
+//         console.log(i);
+//     }
+// }
+// for(let i = 40; i>=20; i--){
+//     console.log(i);
+// }
+// for (let i = 6; i<=30; i++){
+//  console.log(`3 X ${i} = ${3 * i }`);
+// }
+// for (let i = 14; i<=70; i++){
+//     console.log(`7 X ${i} = ${7*i}`);
+// }
+// for(let i = 0; i<=20; i++){
+//     if(i %4== 0){
+
+//     }else{
+//         console.log(i);
+//     }
+// }
+// for(let i = 1; i<=15; i++){
+// console.log(i);
+// }
+// for (let i =50; i>=30; i--){
+//     console.log(i);
+// }
+//  for (let i = 1; i<=25; i+= 5){
+//   console.log(i);
+//  }
