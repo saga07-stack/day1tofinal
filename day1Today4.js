@@ -349,3 +349,45 @@ function garde (score){
 //     result *= 3;
 //     console.log(result);
 //  }
+// let str = "htesasaeioudsa".toLowerCase();
+// //let count = str.split("");
+// let count1 = 0;
+// for(let i of str){
+//         if(i ==="a" || i ==="e" || i ==="i" || i==="o" || i==="u"){
+//             count1++;
+        
+//         }
+// }
+// console.log(count1);
+
+// let input = "dsfhkjla;oaioeruoeasj";
+// let vowel = "aeiou";
+// let count = 0;
+// for(let i of input){
+//     if(vowel.includes(i)){
+//         count++;
+//     }
+// }
+// console.log(count);
+// let input = "sagar";
+// for(let i = 0; i<input.length; i++){
+//     console.log(input[i]);
+// }
+//  let str ="sagarSaGaR";
+//  let count = 0;
+//  for(let i of str){
+//     if (i >='A' && i<='Z'){
+//         count++;
+//     }
+//  }
+//  console.log(count);
+// let str = "sagar";
+// let arr = "";
+// for(let i=0; i<str.length; i++){
+//     arr += str[i]+str[i];
+  
+    
+// }
+//   console.log(arr);
+// ARRAY AND DATA PROCESSING
+//  Find and print the smallest number in a given array
