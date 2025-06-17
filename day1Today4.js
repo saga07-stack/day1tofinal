@@ -302,3 +302,50 @@ function garde (score){
 //  for (let i = 1; i<=25; i+= 5){
 //   console.log(i);
 //  }
+// let sum = 0;
+// for(let i = 50; i<=100; i++){
+//  sum +=  i;
+// };
+// console.log(sum);
+// result = 0;
+// for(let i = 1; i<=6; i++){
+// result *= i; 
+// }
+// console.log(result);
+// let result = 1;
+// for (let i = 1; i<=7; i++){
+//     result = i * i*i;
+//     console.log(result);
+// }
+// let result = 0;
+// for(let i=1; i<=50; i++){
+//     if(i%2 == 1){
+//         result += i;
+//     }else;
+// }
+// console.log(result);
+// let sum = 0;
+// for(let i = 10; i<=100; i++){
+//     if(i%5==0){
+//         sum += i;
+//     }
+// }
+// console.log(sum);
+// let average = 0;
+// let num =0;
+// for(let i=1; i<=20; i++){
+//     average += i;
+
+// }
+// num = average/20;
+// console.log(num);
+// let result = 0;
+// for(let i = 1; i<=10; i++){
+//     result += i*i;
+// }
+// console.log(result);
+//  let result = 1;
+//  for(let i = 1; i<=8; i++){
+//     result *= 3;
+//     console.log(result);
+//  }
