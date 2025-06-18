@@ -391,3 +391,47 @@ function garde (score){
 //   console.log(arr);
 // ARRAY AND DATA PROCESSING
 //  Find and print the smallest number in a given array
+// let str = [11,23,4,5,6,7];
+// let lowest = str[0];
+// for (let i = 0; i<str.length; i++){
+//     if(str[i]<lowest){
+//         lowest = str[i];
+//     }
+// }
+// console.log(lowest);
+// let str = "asfhkjlasdfoiqw;sdoiiuyr";
+// let vowel = "aeiou";
+// let count =0;
+// for(let i of str){
+//     if(vowel.includes(i)){
+//         count++;
+//     }
+// }
+// console.log(count);
+// Count how many positive and negative numbers are in an array
+// let a = [1,2,3,4,5,-6,-7,3,-2,-4];
+// let positive = 0;
+// let negative = 0;
+// for(let i=0; i<a.length; i++){
+//     if (a[i]>=1){
+//         positive++;
+//     }else{
+//         negative++;
+//     }
+// }
+// console.log("there are "+ positive+"positive number in array");
+// console.log("there are "+negative+ " negative numbers in array"); 
+
+
+
+//Print all elements at even indices in an array
+// let a = [1,2,3,6,4,5,6,43,7,5,8];
+//  let even = [];
+//  for(let i=0; i<a.length; i++){
+//     if(a[i]%2== 0){
+//         even.push(a[i]);
+//     }
+//  }
+//  console.log(even);
+
+// Find and print the second largest number in an array
