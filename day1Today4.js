@@ -435,3 +435,59 @@ function garde (score){
 //  console.log(even);
 
 // Find and print the second largest number in an array
+
+// function basic
+// function  greet () {
+//     console.log("good evening")
+// }
+// function sub (num1,num2){
+//     console.log(num1-num2);
+// }
+// function mult (num1,num2){
+//     return num1*num2;
+// }
+// console.log(mult(5,5));
+// // const result = mult(5,5);
+// function greet (name){
+//     console.log(`good evening ${name}` );
+// }
+// greet("saga");
+
+// function fTd (f){
+//    return (f-32)/1.8;
+
+// }
+//  const s = fTd(10);
+// console.log(s);
+
+// function interest (principle,time,rate){
+//     return principle*time*rate/100;
+// }
+//  const outputInterest = interest(2000,10,12);
+//  console.log(outputInterest);
+// function findWeight (){
+//     const age = 45;
+//     const weight = 55;
+//     console.log(`your age is  ${age} and weight is ${weight}  `);
+// }
+// findWeight();
+// function findSquare(number){
+//     const square = number*number;
+//     console.log(square);
+    //   return square;
+// }
+// findSquare(5);
+// function findTrueOrFalse (number){
+//     if(number%2==0){
+//         return true;
+//     }else{
+//         return false;
+//     }
+// }
+// findTrueOrFalse (11);
+
+// const findTheavrage = (sum1,sum2,sum3)=>{
+//    return (sum1+sum2+sum3 ) /findTheavrage.length;
+// }
+// console.log(findTheavrage(10,20,30));
+
