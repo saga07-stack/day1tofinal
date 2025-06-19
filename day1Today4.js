@@ -490,4 +490,16 @@ function garde (score){
 //    return (sum1+sum2+sum3 ) /findTheavrage.length;
 // }
 // console.log(findTheavrage(10,20,30));
+const input = [1,2,3,4,1,44,3,22,22,25];
 
+let highest =input[0];
+let secondHighest = 0;
+for(let i = 1; i<input.length; i++){
+    if(input[i]>highest){
+        secondHighest = input.pop[i];
+    }else;
+}
+// let input1 = input.toString();
+
+console.log(secondHighest);
+// console.log(highest);
