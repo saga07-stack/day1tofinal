@@ -490,16 +490,75 @@ function garde (score){
 //    return (sum1+sum2+sum3 ) /findTheavrage.length;
 // }
 // console.log(findTheavrage(10,20,30));
-const input = [1,2,3,4,1,44,3,22,22,25];
+// const input = [1,2,3,4,1,44,3,22,22,25];
 
-let highest =input[0];
-let secondHighest = 0;
-for(let i = 1; i<input.length; i++){
-    if(input[i]>highest){
-        secondHighest = input.pop[i];
-    }else;
-}
-// let input1 = input.toString();
+// let highest =input[0];
+// let secondHighest = 0;
+// for(let i = 1; i<input.length; i++){
+//     if(input[i]>highest){
+//         secondHighest = input.pop[i];
+//     }else;
+// }
+// // let input1 = input.toString();
 
-console.log(secondHighest);
-// console.log(highest);
+// console.log(secondHighest);
+// // console.log(highest);
+
+
+//  using arrow function ;
+//  const areaOfRectangle = (length, breadth) => {
+//  return length*breadth;
+//  }
+//  console.log(areaOfRectangle(10,20));
+
+// const areaOfCircle = (radius)=>{
+//  return 3.14 *radius;
+// }
+// console.log(areaOfCircle(10));
+
+
+// const celsiusToFahrenheit = (celsius)=>{
+//     return (celsius*9/5)+32;
+// }
+// console.log(celsiusToFahrenheit(36));
+
+//  const greeting = (yourname,age)=>{
+//     return ` Hi ${yourname} your age is ${age}.`;
+//  }
+//  console.log(greeting("sagar",20));
+
+// const numberChecker = (input) =>{
+//     if(input%5==0){
+//         return true;
+//     }else {
+//         return false;
+//     }
+// } 
+// console.log(numberChecker(20));
+
+// const largestNumber = (input1, input2)=>{
+//  if(input1<input2){
+//     return input2;
+//  }else{
+//     return input1;
+//  }
+// }
+// console.log(largestNumber(20,10));
+
+// const largesetNumber = (input1, input2) => input1<input2 ? `${input2}`:`${input1}`; 
+// console.log(largesetNumber(10,30));
+// const cubeaOfNumber = (input) => {
+//     return input**3;
+// }
+// console.log(cubeaOfNumber(3));
+// const odd = (input) => input%2 == 0 ? 'odd':'even'; 
+// console.log(odd(21));
+// let positive = 0;
+// const absolute  = (input) => {
+//  if (input< 0){
+//  return    -input;
+//  }else if (input > 0){
+//     return input
+//  };
+// }
+//  console.log(absolute(-10));
