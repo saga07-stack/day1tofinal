@@ -598,3 +598,42 @@ function garde (score){
 //  }else if (gender == "female"){
 //     console.log("sorry");
 //  }
+// Check if a number is divisible by 5.
+// let number = 30;
+// if(number %5 ==0 ){
+//     console.log("it is ");
+// }else {
+//     console.log("can't divisible by 5 ");
+// }
+// Check if a student passed or failed (pass mark 40).
+// let mark = 90;
+// if (mark >=90){
+//     console.log("congrats nigga you got a good mark");
+// }else if (mark >=80){
+//     console.log("you Can Get More If you push hard nigga ");
+// }else if (mark >=70){
+//     console.log("You better focus in book more then ass ");
+// }else if (mark >=60){
+//     console.log("you  have a good luck nigga");
+// }else  if (mark >= 50){
+//     console.log("you have to repeat this course in this vaccation ");
+
+// }else if (mark >= 40){
+//     console.log("you better join tuttion class and work hard ");
+// }else {
+//     console.log("You have to repeat this year again ");
+// }
+
+// Check if a character is a vowel or consonant.
+
+
+//  let vowel = " a,e,i,o,u";
+//  let input = "a"
+//   for ( let i = 0; i<input.length; i++ ){
+//     if (vowel[i]  === input[i] ){
+//         console.log("vowel");
+//     }else{
+//         console.log("not");
+//     }
+//   }
+// SVGDefsElement
