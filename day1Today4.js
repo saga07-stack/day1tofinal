@@ -562,3 +562,39 @@ function garde (score){
 //  };
 // }
 //  console.log(absolute(-10));
+// Make an arrow function that adds three numbers.
+// const addNumbers = (one,two,three) => {
+//     return one+two+three;
+// }
+// console.log(addNumbers(1,2,3));
+// Write a function that reverses any string passed to it.
+// let country = "nepali";
+// let age = 20;
+// if (country == "nepal " && age >= 16){
+//     console.log("you can get citizenship");
+// }else if (){
+//     console.log(`you have to wait until`)
+// }
+
+//  let status = "VIP";
+//  let property = 500000000;
+//  if(status == "VIP"|| property>= 5000000){
+//     console.log("you can get visa");
+//  }else {
+//     console.log("sorry you can't get ");
+//  }
+
+//  let gender = "female";
+//  let age = 18;
+//  if(gender == "female" || age <=18){
+//     console.log("You can get a discount");
+//  }else {
+//     console.log("sorry");
+//  }
+ // let gender = "female";
+//  let age = 18;
+//  if(gender == "female" && age <=18){
+//     console.log("You can get a discount");
+//  }else if (gender == "female"){
+//     console.log("sorry");
+//  }
