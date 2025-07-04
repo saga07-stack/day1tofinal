@@ -636,4 +636,75 @@ function garde (score){
 //         console.log("not");
 //     }
 //   }
-// SVGDefsElement
+// ternary  practice 
+
+//    const age = 20;
+//    const ageChecker = age >= 18 ? " Yes you can ": " No you cant";
+//    console.log(ageChecker);
+// Check if a number is positive or negative.
+//  const number = -1;
+//  const numberChecker = number <0 ? " Negative " : " postive ";
+//  console.log(numberChecker); 
+
+// Check if a number is odd or even.
+// const num = 21;
+// const numberChecker = num %2 == 0 ? " even " : " odd ";
+// console.log(numberChecker);
+
+// Check if a user has a premium account or not
+// const isPremium = false;
+// const accountChecker = isPremium == true ? " Your account is premium  " : " sorry your account is normal ";
+// console.log(accountChecker);
+// Return "Pass" if score ≥ 40, otherwise "Fail".
+// const result = 40;
+// const resultChecker = result >= 40 ?  " pass " : " fail " ;
+// console.log(resultChecker);
+
+// Check if a string is empty or not.
+// const strings = "";
+// const stringChecker = strings == "" ? "there is nothing " : strings;
+// console.log(stringChecker);
+
+// Set a discount based on price (price > 1000 ? 10% discount : 5% discount).
+// const totalAmount = 1000;
+//  const shopping = totalAmount >=1000 ? `you got 10% discount total amount is ${totalAmount * 0.1}  `    : `You got 5% discount ${totalAmount * 0.05}`;  ;
+//  console.log(shopping);
+
+// Show “In Stock” or “Out of Stock” based on quantity.
+// const quantity = 10;
+// const stockChecker = quantity>0 ? "In stock " : " out of stock ";
+// console.log(stockChecker);
+// Return "Login Successful" if username and password match, else "Access Denied".
+// const userName = "sagar";
+// const password = "sagar12";
+// const login = userName === "sagar" && password === "sagar1" ? " login sucessfully " : " Access denied ";
+// console.log(login);
+
+//  NAsted ternary operator 
+// Check if temperature is hot, cold, or normal using nested ternary.
+//   const temp = 25;
+//    const tempChecker = temp >= 30 ? "very hot " : temp >=15 ? "humidity " : temp >=5 ? " cold " : " freezing ";
+//    console.log(tempChecker);
+
+// Return good morning, afternoon or evening according to the time. 
+// const time = 10;
+// const timeChecker = time >= 5 ? " Good Night " : time >= 10 ? " Good Morning " : time >=17 ? " Good Afternoon " : time >=20 ? " Good Evening " : time >=24 ? " Good Night " : "invalid input ";
+// console.log(timeChecker);
+ 
+//  Make the grading system of Nepal with nested ternary.
+
+// const mask = 20;
+// const resultChecker = mask>=90 ? " A+ " : mask >=90 ? " A ":  mask  >=80  ? " B+ " : mask >=70 ? " B " : mask>=60 ? " C+ " : mask >=50 ? " C " : mask >= 40 ? "D+ " : " fail ";
+//  console.log(resultChecker);
+ 
+// const isLogged = true;
+// const loggin = isLogged == true ? "Login sucessful " : " Please login again ";
+// console.log(loggin);
+//  const mode = false;
+//  const mode1 = mode ? "Dark mode " : " light mode ";
+//  console.log(mode1); 
+
+// const comment = "Nice video ";
+// const cmt = "Nice video "
+// const commentChecker = cmt === comment ?  : " no comment ";
+// console.log(commentChecker) 
