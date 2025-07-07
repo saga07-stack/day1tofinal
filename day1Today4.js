@@ -708,3 +708,80 @@ function garde (score){
 // const cmt = "Nice video "
 // const commentChecker = cmt === comment ?  : " no comment ";
 // console.log(commentChecker) 
+//json
+ 
+// const x = `hello`
+// //js object notation
+// const obj = `{
+//    "name": "hello",
+//     "age": 20,
+// "boolean":true
+// }`
+// const obj2 = {
+//     "name": "hello",
+//     "age": 20,
+ 
+// }
+// const j = JSON.stringify(obj2) //json
+// const jobj = JSON.parse(j)
+// //json string . use garna namilney
+ 
+//  const ob1 = JSON.parse("")
+// console.log(jobj.age)
+// console.log(obj2.name);
+// console.log(typeof j);
+ 
+// //nepal json(give and take)   china
+ 
+// const objJson = {
+//     "name": "hello",
+//     "age": 20
+// }
+ 
+ 
+// async function getFl() { 
+//     const hello = await fetch("https://api.github.com/users/amanchaudary")
+//     const data = await hello.json()
+//     return data.avatar_url;
+// }
+// getFl().then(a => document.getElementById("aman").src = a
+// )
+
+// let money = 1000;
+//  let money2 = money;
+//  money2 = 2000;
+//  console.log(money);
+//  console.log(money2);
+//   const student1 = { name: "sagar"};
+//   const student2 = student1;
+//   student2.name = "sharma";
+//   console.log(student1.name);
+//   console.log(student2.name);
+// const admin = "s";
+// const user = "u";
+// const guest = "g";
+// const 
+// let z = 5;
+// for (let i= 1; i<=10; i++){
+//     console.log(` 5 * ${i} = ${5*i} `);
+// }
+// for (let i = 1; i<=10; i++){
+//     console.log("table of "+i)
+//     for(let j =1; j<=10; j++){
+//         console.log(`${i} * ${j} = ${i*j}`);
+
+//     }
+// }
+
+for (let i = 1; i<=5; i++){
+   let add = '';
+    for(let j =1; j<=i; j++){
+      add  += " ";
+      if(add.length == 3 ||add.length == 4 ){
+        add += "*";
+      }else{
+      add += "**";
+      }
+    }
+    console.log(add);
+}
