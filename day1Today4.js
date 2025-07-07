@@ -773,15 +773,42 @@ function garde (score){
 //     }
 // }
 
-for (let i = 1; i<=5; i++){
-   let add = '';
-    for(let j =1; j<=i; j++){
-      add  += " ";
-      if(add.length == 3 ||add.length == 4 ){
-        add += "*";
-      }else{
-      add += "**";
-      }
-    }
-    console.log(add);
-}
+// for (let i = 1; i<=5; i++){
+//    let add = '';
+//     for(let j =1; j<=i; j++){
+//       add  += " ";
+//       if(add.length == 3 ||add.length == 4 ){
+//         add += "*";
+//       }else{
+//       add += "**";
+//       }
+//     }
+//     console.log(add);
+// }
+//  document.getElementById("button").addEventListener("hover", function(){
+//     document.getElementById("button").innerHTML= 1
+//  });
+
+// some function with arrow function only ;
+// Create an arrow function that returns "Good Morning".
+// const greet = () => {
+//     return "good morning ";
+// }
+// console.log(greet());
+
+
+// Create an arrow function that returns your name.
+// const yourName = "";
+// const name = (yourName) => {
+//     return `Good Morning ${yourName}`;
+// }
+
+// console.log(name("lamo"));
+
+// Create an arrow function that adds two numbers.
+// const addingTwoNumber = (one,two) => {
+//     return `${one}+${two} = ${one+two}`
+// }
+
+// console.log(addingTwoNumber(12, 13));
+
