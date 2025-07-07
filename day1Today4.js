@@ -812,3 +812,78 @@ function garde (score){
 
 // console.log(addingTwoNumber(12, 13));
 
+// Create an arrow function that multiplies two numbers.
+// const multiplies = (one,two) => {
+//     return `${one} + ${two} * = ${one*two}`;
+// };
+
+// console.log(multiplies(12,10));
+
+//Create an arrow function that calculates the square of a number.
+// const square = (one) => {
+//     return `square of a number of ${one} is ${one*one}`;
+// };
+
+// console.log(square(10));
+// Create an arrow function that returns the first character of a string.
+// const strings = "";
+// const strng = (strings) => {
+//     return ` the first character of a string of ${strings} is ${strings[0]}`
+
+// };
+
+// console.log(strng("sagar"));
+
+// Create an arrow function that returns the last character of a string.
+// const strings = "";
+// const lastCharacter = (strings) => {
+//     return `the last character of a string of ${strings} is ${strings[strings.length-1]}`;
+// };
+
+// console.log(lastCharacter("sagar"));
+
+// Create an arrow function that converts minutes to seconds.
+// const min = 0;
+// const sec = 60;
+// const minuteConverter = (min)=>{
+//     return `the seconds of ${min}min is ${min*sec}sec`;
+// }
+// console.log(minuteConverter(20));
+
+// Create an arrow function that calculates the volume of a cuboid (l * b * h).
+// const volumeOfCuboid = (length,breath,height)=>{
+//     return ` the volume of a cuboid is ${length*breath*height}`;
+// };
+// console.log(volumeOfCuboid(12,22,12));
+
+// Create an arrow function that returns a greeting with the user's name.
+
+// const greeting = (name) => {
+//     return`Good morning ${name}`;
+// };
+// console.log(greeting("sagar"));
+
+// Create an arrow function that checks if a number is greater than 100.
+// const input = 220;
+// const numChecker = input>100 ? "greater" : "notgreater";
+
+// console.log(numChecker);
+// const input = 110;
+// const numChecker = input % 2 == 0 ? "Even" : "Odd";
+
+// console.log(numChecker);
+
+// Create an arrow function that returns the length of a string.
+// const string = "sagar";
+// let count = 0;
+// const lengthOfaString = (string) =>{
+// for(let i = 0; i<string.length; i++){
+//     count++;
+// }
+// return ` the length of a ${string} is ${count}`;
+// } ;
+
+// console.log(lengthOfaString("sagar"));
+
+// Create an arrow function that joins two words with a space.
+
