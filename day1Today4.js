@@ -1178,3 +1178,40 @@ function garde (score){
 // }
 // console.log(getPriorityColor("yellow"));
 
+// ==============STRINGS=============
+// String Indexing & Slicing (fresh practice)
+// Create arrow function secondChar that returns the second character of a string 
+// const secondChar = (input)=> {
+//   return input[1];
+// }
+// console.log(secondChar("sagar"));
+
+// Create arrow function removeFirstChar that removes the first character of a string.
+// const removeFirstChar = (input) =>{
+//     let  input1 = input.slice(1);
+//     return input1;
+// }
+//  console.log(removeFirstChar("sagar"));
+
+
+// Create arrow function removeLastChar that removes the last character of a string.
+// const removeLastChar = (input)=>{
+//   let input1 =  input.slice(0,-1);
+//   return input1;
+// };
+// console.log(removeLastChar("sagar"));
+
+
+// Create arrow function sliceMiddle that returns characters from index 1 to 4 of a string.
+// const sliceMiddle = (input) =>{
+//     let input1 = input.slice(1,5);
+//     return input1;
+// }
+// console.log(sliceMiddle("sagarsharma"));
+
+// Create arrow function sliceLastThree that returns last 3 characters of a string (using negative index).
+// const sliceLastThree = (input) =>{
+//     let input1 = input.slice(-3);
+//     return input1;
+// }
+// console.log(sliceLastThree("sagar"));
