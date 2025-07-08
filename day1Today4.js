@@ -1126,3 +1126,21 @@ function garde (score){
 // return isUserLoggedIn ? "Good Evening " : "";
 // }
 // console.log(greetUser(true));
+// Create arrow function showDiscount that takes totalAmount and logs "10% discount applied" only if totalAmount > 5000.
+//  const showDiscount = (totalAmount)=>{
+//     return totalAmount>= 5000 ? `the discount you got from ${totalAmount} is ${totalAmount*0.1}`: "sorry";
+//  }
+//  console.log(showDiscount(20000));
+
+// Create arrow function showAccess that logs "Access granted" only if both isLoggedIn and hasAccessRights are true.
+// const showAccess = (isLoggedIn,hasAccessRights) =>{
+//     return isLoggedIn && hasAccessRights ? "Access granted" : "sorry";
+// }
+// console.log(showAccess(false,false));
+
+// Create arrow function sendNotification that logs "Notification sent" only if isVerified is true and email equals "user@example.com".
+
+// const sendNotification = (isVerified,email)=>{
+// //      isVerified && email=== "user@example.com" && console.log ( "Notification sent " );
+// // };
+// // (sendNotification(false,"user@example.com"));
