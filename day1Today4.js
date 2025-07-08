@@ -886,4 +886,77 @@ function garde (score){
 // console.log(lengthOfaString("sagar"));
 
 // Create an arrow function that joins two words with a space.
+// const nameConnecter = (a,b) => {
+//     return ` ${a} ${b}`;
+// };
+// console.log(nameConnecter("sagar","sharma"));
+ 
+// - Create an arrow function that adds three numbers.
+// const addNumbers = (a,b,c)=>{
+//     return `${a+b+c}`;
+// };
+// console.log(addNumbers(10,20,30));
+        
+// Create an arrow function that returns the type of the input.
+// const a = "sagar";
+// function lengths () {
+// return `${a.length}`
+// } 
+// console.log(lengths());
+// You bought 5kg of mangoes at rate of Rs. 150 per kg. Then show it in format - You bought 5 kg mangoes with total price Rs. 750 while price per kg is Rs. 150. Show fruit, kg, rate and total price as variables in template string.
+// const fruit = "mango";
+// const kg = 5;
+// const totalPrice = perKgOfMango * kg;
+// const perKgOfMango = 150;
+// console.log(`you bought 5kg of mango with total price Rs. ${150*5} while price per kg is Rs.${perKgOfMango} `);
+// event - React Class, Starting date - 5th August, mode - Online zoom, time 2 hours. You need to show it in format. You are invited to the {event} which starts from {starting date}. It will be {mode} class {time} daily.
 
+//  const event = "React class "
+//  const starting_date = "5-August";
+//  const mode = "online-zoom";
+//  const time = "2 hours";
+//  console.log(`you are invited to the ${event} which starts from ${starting_date} . it will  be ${mode} class ${time} daily `);
+// name - Ram, birthYear = 1995, currentYear = 2025. Show it in format - Ram is 30 yrs old. 
+// const name = "ram";
+// const birthYear = 1995;
+// const currentYear = 2025;
+// console.log(`${name} is ${currentYear-birthYear} yrs old`);
+
+// name = Hari, age = 20, college = Trinity, isGraduated = true/false. Print - Hari is 20 yrs old and studies at Trinity college. (If isGraduated is true) Hari graduated from Trinity college. (note - Either use ternary or use && operator - this concept is vary useful in react).
+// const name = "hari ";
+// const age = 20;
+// const collage = "trinity";
+// const isGraduated = false;
+// if(isGraduated == true){
+//     console.log(`${name} is ${age} yrs old and studies at ${collage} ${name} is graduated from ${collage} `);
+//     }else;
+    
+    // const age = 18;
+    // age && console.log("you can vote ");
+
+//  const greet = () => "good morning";
+//  const isLogged = false;
+//  isLogged && console.log(greet());
+
+// const isLoggedIn = true;
+// const isPremium = true;
+// isLoggedIn && isPremium && console.log("wellcome to premium content ");
+
+// const isVerified = true;
+// const email = "ram@gmail.com";
+// const userEmail = "ram@gmail.com"
+// isVerified && email == userEmail && console.log("you  are a verified user ram ");
+ 
+
+//  const country = "";
+// const selectedCountry = country || "nepal";
+// console.log(selectedCountry);
+
+// const message = "";
+// const newMessage = message || "no new message";
+// console.log(newMessage); 
+
+// const shortDescription = "";
+// const longDescription = " ";
+// const new1 = shortDescription || longDescription || "no description ";
+// console.log(new1)
