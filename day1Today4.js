@@ -1144,3 +1144,37 @@ function garde (score){
 // //      isVerified && email=== "user@example.com" && console.log ( "Notification sent " );
 // // };
 // // (sendNotification(false,"user@example.com"));
+
+
+// Default Values with || (new scenarios)
+// Create arrow function getLanguage that takes language and returns it or "English" if falsy.
+//  const getLanguage = (language)=>{
+//     return language || "English";
+
+//  }
+//  console.log(getLanguage("japanese"));
+
+// Create arrow function getBackgroundColor that returns userColor or defaultColor or "white".
+// const getBackgroundColor = (userColor,defalultColor)=>{
+//     return userColor || defalultColor|| "white";
+// }
+// console.log(getBackgroundColor());
+
+// Create arrow function getStatusMessage that returns message or "No new notifications" if empty.
+// const getStatusMessage = (message)=>{
+//   return message || "no new notifications ";
+// };
+// console.log(getStatusMessage());
+
+// Create arrow function getDescription that returns shortDesc || longDesc || "No description available".
+// const getDescription = (shortDesc,longDesc)=>{
+//     return shortDesc || longDesc || "No description available";
+// };
+// console.log(getDescription("hello"));
+
+// Create arrow function getPriorityColor that returns primaryColor || secondaryColor || tertiaryColor || "black".
+// const getPriorityColor = (primaryColor,secondaryColor,tertiaryColor) =>{
+//     return primaryColor || secondaryColor|| tertiaryColor || "black";
+// }
+// console.log(getPriorityColor("yellow"));
+
