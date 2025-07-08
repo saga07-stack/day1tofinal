@@ -960,3 +960,169 @@ function garde (score){
 // const longDescription = " ";
 // const new1 = shortDescription || longDescription || "no description ";
 // console.log(new1)
+// day 7 STRINGS AND && AND || 
+// You bought 5kg of mangoes at rate of Rs. 150 per kg. Then show it in format - You bought 5 kg mangoes with total price Rs. 750 while price per kg is Rs. 150. Show fruit, kg, rate and total price as variables in template string.
+// const fruit = "Mango";
+// const kg = 5;
+// const rate = 150;
+// const totalPrice = kg * rate;
+// console.log(`You  bought ${kg} kg ${fruit} with total price Rs. ${totalPrice} while price per kg is Rs ${rate}`);
+
+// event - React Class, Starting date - 5th August, mode - Online zoom, time 2 hours. You need to show it in format. You are invited to the {event} which starts from {starting date}. It will be {mode} class {time} daily.
+// const event = "React Class ";
+// const startingDate = "5th August";
+// const mode = "online zoom ";
+// const time = " 2 hours";
+// console.log(`You are invited to the ${event} which starts from ${startingDate}. It will be ${mode} class ${time} daily`);
+
+// name - Ram, birthYear = 1995, currentYear = 2025. Show it in format - Ram is 30 yrs old. 
+// const name = "Ram";
+// const birthYear = 1995;
+// const currentYear = 2025;
+// const age = currentYear - birthYear;
+// console.log(`${name} is ${age} yrs old.`);
+
+// name = Hari, age = 20, college = Trinity, isGraduated = true/false. Print - Hari is 20 yrs old and studies at Trinity college. 
+// (If isGraduated is true) Hari graduated from Trinity college. (note - Either use ternary or use && operator - this concept is vary useful in react).
+
+//  const name = "Hari";
+//  const age = 20;
+//  const collage = "Trinity";
+//  const isGraduated = true;
+//  console.log(`${name} is ${age} yrs old and studies at ${collage} collage. `);
+//  isGraduated && console.log(`${name} is graduated from ${collage} collage.`);
+
+//  const name = "Hari";
+//  const age = 20;
+//  const collage = "Trinity";
+//  const isGraduated = false;
+//  console.log(`${name} is ${age} yrs old and studies at ${collage} collage. `);
+//   console.log (isGraduated ? `${name} is graduated from ${collage} collage.`: "");
+
+//  Guard clause
+// 1. Use && operator to show You can vote only if you are more than or equal to 18 yrs old.
+//   const age = 22;
+//    age >= 18 && console.log("You can vote"); 
+ 
+//  Make a simple function to greet a person like Good Morning. 
+//  Then run the function only if the user is logged in using &&. (Hint - You can create variable named isLoggedIn.)
+//const isLoggedIn = false;
+// function greet () {
+//  return "good Morning ";
+// }
+
+// isLoggedIn && console.log(greet()); 
+
+// Calculate discount and display it only if the total purchase is more than Rs. 3000. Lets say 10% discount. 
+// const totalPrice = 3000;
+// const discount = totalPrice *0.1;
+// totalPrice >= 3000 && console.log(`You got 10% discount which is  ${discount}.`);
+
+// Create two variables isLoggedIn and isPremiumUser and 
+// if both are true then only show - Welcome to Premium Content. (hint - use && twice).
+
+// const isPremiumUser = true;
+// const isLoggedIn = true;
+// isPremiumUser && isLoggedIn && console.log("wellcome to Premium content ");
+
+// Send email if user isVerified as well as his email is ram@gmail.com. Then send him email saying - You are a verified user Ram.
+//  const email = "ram@gmail.com";
+//  const isVerified = false;
+//  const input = "ram@gmail.com"
+//  input === email && isVerified && console.log("YOu are a verified user Ram");
+
+// What are Default Value pattern or fallback ?
+
+// || is used. If left side is true then the same left side is used and if it is false, then only right side is used.
+// If country is selected then its fine, if not show the default country Nepal. 
+// let name = "usa";
+// const username = name || "Nepal";
+// console.log(username);
+
+// Create a variable named selectedTheme and whether it is assigned or not, give default value of light theme.
+// const selectedTheme = "brown theme";
+// const theme = selectedTheme || "light theme";
+// console.log(theme);
+
+// If message is not empty return the message while if message is empty return No new messages. 
+// const message = "";
+// const reply = message || " No new message ";
+// console.log(reply);
+
+// Imagine a product has Short Description and Long description. Try to show short as far as possible than long. 
+// If by chance both are not available then display No Description Available. (Hint - use two ||)
+//  const shortDescription = "";
+//  const longDescription = "";
+//  const description = shortDescription || longDescription || "No Description ";
+//  console.log(description);
+
+// Lets say there are three variables called userColor, savedColor and systemDefault
+//  as white. Now our first priority is userColor, if not savedColor and at last systemDefault.
+
+//  const userColor = "";
+//  const savedColor = "";
+//  const systemDefault = "white";
+//  const color = userColor || savedColor || systemDefault;
+//  console.log(color);
+
+// homeWorks 
+// Template Literals & Basic Expressions (new examples)
+// 1. Create arrow function `orderSummary` that takes `product`, `qty`, and `price` and returns:
+    
+    // `"You bought {qty} {product} for Rs. {qty * price}."`
+
+    //  const orderSummary = (product, qty,price) => {
+    //     return `You bought ${qty} ${product} for Rs. ${qty*price}`;
+
+    //  }
+
+    //  console.log(orderSummary());
+
+    // 2. Create arrow function `meetingNotice` that takes `topic`, `date`, `duration` and returns:
+    
+    // `"Meeting on {topic} is scheduled for {date} and will last {duration} hours."`
+ 
+    // const meetingNotice = (topic,date,duration ) =>{
+    //  return ` Meeting on ${topic} is scheduled for ${date} and will last ${duration} hours `;
+
+    // }
+    // console.log(meetingNotice());
+
+    // 3. Create arrow function `ageMessage` that takes `personName`, `birthYear`, and `currentYear` and returns:
+    
+    // `"{personName} is {currentYear - birthYear} years old."`
+    // const ageMessage = (personName,birthYear,currentYear)=> {
+    //     return `${personName} is ${currentYear-birthYear} years old`;
+    // }
+    // console.log(ageMessage("sagar",2002,2025));
+
+    // 4. Create arrow function `studentStatus` that takes `name`, `age`, `school`, and `hasGraduated` and returns:   
+    // `"{name} is {age} years old and studies at {school}."`
+    // If `hasGraduated` is true, add `" {name} graduated from {school}."` (use ternary or `&&`).
+
+ //const studentStatus = (name,age,school,hasGraduated) =>{
+//         return `${name} is ${age} years old and studies at ${school}`+
+//         (hasGraduated && `${name} graduated from ${school}`);
+//     };
+
+//    console.log(studentStatus("sagar",20,"school",true));
+//     
+//    using ternary operator
+//    const studentStatus = (name,age,school,hasGraduated) =>{
+//     return `${name} is ${age} years old and studies at ${school}` +
+//    ( hasGraduated ? `${name} graduated from ${school}.`:"");
+//    }
+//    console.log(studentStatus("sagar",20,"school",false));
+
+//  Create arrow function canDrive that takes age and logs "You can drive" only if age >= 18.
+//  const canDrive = (age)=>{
+//    return age >=18 ? "you can drive":"";
+//  }
+//  console.log(canDrive(10));
+
+// Create arrow function greetUser that logs "Good evening" only if isUserLoggedIn is true.
+
+// const greetUser = (isUserLoggedIn) =>{
+// return isUserLoggedIn ? "Good Evening " : "";
+// }
+// console.log(greetUser(true));
