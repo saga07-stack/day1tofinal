@@ -1288,3 +1288,95 @@ function garde (score){
 // }
 // console.log(charAtIndex(2));
 
+// Arrays, for of, forEach
+// Task - Create an array of 15 students in a class. and then print the student of index 3,8,12,14 each along with template string - 
+// Congratulations, {name}. You are selected for the competition. (Dont use loop here as we are learning index).
+
+// const class5Students = ["hary","ram","shyam","gita","basu","sagar","sharma","poudel","radha","krishna","gopal","parbati","radhika","kiran","ajay"];
+    // console.log(`Congratulations, ${class5Students[3]}.You are selected for competition `);
+    // console.log(`Congratulations, ${class5Students[8]}.You are selected for competition `);
+    // console.log(`Congratulations, ${class5Students[12]}.You are selected for competition `);
+    // console.log(`Congratulations, ${class5Students[14]}.You are selected for competition `);
+// Task - Create an array of 10 items in a shop of Newroad. Then replace the 3rd ,
+//  7th and 10th element with the item you wish. (note - replacing array[3] is not 3rd item, its 4th item.)
+
+// const shopOfnewRoad = ["toy","sugar","salt","chocolate","tabacoo", "rice","pudding","greenTeaBag","lighter","chips"];
+// shopOfnewRoad[3] = "dairyMilk";
+// shopOfnewRoad[6] = "BlackTea";
+// shopOfnewRoad[9] = "noodles";
+// console.log(shopOfnewRoad);
+
+// Task - Create any array with minimum length 8 and then apply push to add element at the end.
+// const newRoad = ["toy","sugar","salt","chocolate","tabacoo", "rice","pudding","greenTeaBag","lighter","chips"];
+// newRoad.push("noodles");
+// console.log(newRoad);
+
+// Task - Create an array with minimum length 8 and then apply pop to remove the last element. 
+// const newRoad = ["toy","sugar","salt","chocolate","tabacoo", "rice","pudding","greenTeaBag","lighter","chips"];
+// newRoad.pop();
+// console.log(newRoad);
+
+// ask - Create an array with minimum length 8 and then apply shift to remove the first element.
+// const newRoad = ["toy","sugar","salt","chocolate","tabacoo", "rice","pudding","greenTeaBag","lighter","chips"];
+// newRoad.shift();
+// console.log(newRoad);
+
+// It adds the element at the beginning without creating loophole
+
+// const newRoad = ["toy","sugar","salt","chocolate","tabacoo", "rice","pudding","greenTeaBag","lighter","chips"];
+// newRoad.unshift("fryOil");
+// console.log(newRoad);
+
+// Task - Create any array of min length 8 and use for loop to display each item
+//  const newRoad = ["toy","sugar","salt","chocolate","tabacoo", "rice","pudding","greenTeaBag","lighter","chips"];
+//  for(let i= 0; i<newRoad.length; i++){
+//     console.log(newRoad[i]);
+//  }
+
+// Create an array of numbers and then display all the numbers.
+// For same array display the numbers doubled.
+// const nums = [1,2,3,4,5,6];
+// for (let i = 1; i<nums.length; i++){
+//     console.log(nums[i]*2);
+// };
+ 
+// For same array display the numbers doubled.
+// const nums = [1,2,3,4,5,6,1];
+// for (let i = 0; i<nums.length; i++){
+//     console.log(nums[i]*3);
+// }
+// const names = ["s","a","g","a","r","p","o","u","d","e","l","l"];
+// names.pop();
+// console.log(names);
+
+// const names = [ "sagar","sharma","mandip","dhakal","sanukaji","aayam","sudin","shrestha"];
+// names.shift();
+// console.log(names);
+// const names = ["bibek","swastika","gajurel","kailash","kc","sagar","japan","china","USA"];
+// names.unshift("nepal");
+// console.log(names);
+
+// const fruits = ["apple","banana","orange","mango","pineapple","lemon","gauva","watermelon"];
+// for(let i =0; i< fruits.length; i++){
+//     console.log(fruits[i]);
+// }
+
+// const numbers = [1,2,3,4,5,6,7,8,9];
+// for(let number of numbers){
+//     console.log(number);
+// }
+
+// const numbers = [2,4,6,8,10,2,3,4,51,12];
+// numbers.forEach((number) => {
+//     console.log(number);
+// });
+
+// const numbers = [2,4,6,8,10,2,3,4,51,12];
+// numbers.forEach((number)=>{
+//     console.log(number*2);
+// });
+// const numbers = [2,4,6,8,10,2,3,4,51,12];
+// numbers.forEach((number)=>{
+   
+//     console.log(number**3);
+// });
