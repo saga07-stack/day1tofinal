@@ -1275,3 +1275,16 @@ function garde (score){
 // console.log(splitByComma("sagar"));
 // Create arrow function replaceWord that replaces 
 // first occurrence of a word with another word.
+
+// const replaceWord = (str)=>{
+//     return str.replace("hello","hi");
+// }
+// console.log(replaceWord("hello how are you"));
+
+// Create arrow function charAtIndex that returns character at given index.
+// const charAtIndex = (str) =>{
+//      let output1 = "sagar";
+//      return output1[str];
+// }
+// console.log(charAtIndex(2));
+
