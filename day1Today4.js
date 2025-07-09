@@ -1215,3 +1215,63 @@ function garde (score){
 //     return input1;
 // }
 // console.log(sliceLastThree("sagar"));
+
+// String Methods (new uses)
+
+// Create arrow function getLength that returns length of the string.
+// const getLength = (str)=>{
+// return str.length;
+// }
+
+// console.log(getLength("sagar"));
+
+// Create arrow function toLowerCaseStr that converts string to lowercase.
+// const toLowerCaseStr = (str)=>{
+//     let lowercase = str.toLowerCase();
+//     return lowercase;
+// } 
+// console.log(toLowerCaseStr("SAGAR"));
+// Create arrow function toUpperCaseStr that converts string to uppercase.
+// const toUpperCaseStr = (str)=>{
+
+//    let a = str.toUpperCase();
+//    return a ;
+
+// }
+// console.log(toUpperCaseStr("sagar"));
+// Create arrow function includesWord that returns true if string includes given word.
+// const includesWord = (str) =>{
+//  let a = str.includes("s");
+//  return a;
+// }
+// // console.log(includesWord("agar"));
+// Create arrow function startsWithLetter
+//  that returns true if string starts with given letter.
+// const startsWithLetter = (str) =>{
+//     let a = str.startsWith("a");
+//     return a;
+// }
+// console.log(startsWithLetter("sagar"));
+// Create arrow function endsWithLetter that returns true if string ends with given letter.
+// const endsWithLetter = (str) => {
+//     let a = str.endsWith("r");
+//     return a;
+// }
+// console.log(endsWithLetter("sagar"));
+// Create arrow function trimSpaces that trims leading and trailing spaces.
+// const trimSpaces = (str) =>{
+//     let str1 = str.trim();
+//    return str;
+// }
+// console.log(trimSpaces("   safaesa  "));
+
+// Create arrow function splitByComma that 
+// splits a string by commas and returns array.
+// const splitByComma = (str)=>{
+//     let a = str.split(",");
+//     return a;
+
+// }
+// console.log(splitByComma("sagar"));
+// Create arrow function replaceWord that replaces 
+// first occurrence of a word with another word.
