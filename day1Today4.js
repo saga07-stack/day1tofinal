@@ -1380,3 +1380,115 @@ function garde (score){
    
 //     console.log(number**3);
 // });
+
+// Simple Combined Practice
+// Create arrow function isValidName that returns true if trimmed name length > 0.
+// const isValidName = (input)=>{
+//     let input1 = input.trim();
+//     return input1.length> 0 ? true: false;
+// }
+// console.log(isValidName("   "));
+
+
+// Create arrow function countWords that counts number of words in a string (split by space).
+// const countWords = (input) =>{
+//      let splitedInput = input.trim().split(" ");
+//  return splitedInput.length;
+// }
+// console.log(countWords("sagar is from nepal"));
+
+// // Create arrow function capitalizeFirstChar that capitalizes only the first character of string.
+
+// const capitalizeFirstChar = (input) =>{
+//     let firstOne = input[0].toUpperCase();
+//     let entireOne = input.slice(1);
+//     return `${firstOne}${entireOne}`;
+    
+// }
+//  console.log(capitalizeFirstChar("poudel"));
+ 
+
+//  Create arrow function isEmail that returns true if string includes "@".
+// const idEmail = (input) =>{
+//    return input.includes("@") ? true: false;
+// }
+// console.log(idEmail("sagarmatha603@gmail.com"));
+
+// Create arrow function getFirstWord that returns the first word from a sentence.
+
+// const getFirstWord = (input) =>{
+//     let splited = input.split(" ");
+//     return splited[0];
+// }
+// console.log(getFirstWord("sagar is my best friend"));
+
+// Create arrow function lastCharToUpper that returns last character in uppercase.
+// const lastCharToUpper = (input) =>{
+//     let lastChr = input.slice(-1).toUpperCase();
+//     let firstNormal = input.slice(0,-1);
+//     return `${firstNormal}${lastChr}`; 
+// }
+// console.log(lastCharToUpper("sagar"));
+
+// Create arrow function replaceSpacesWithDash that replaces all spaces with .
+
+
+
+// Create arrow function startsWithHello that returns true if string starts with "Hello".
+// const startsWithHello = (input) =>{
+
+//     let inputs = input.startsWith("hello") ;
+//     return inputs;
+// }
+// console.log(startsWithHello("hello there "));
+
+
+// Create arrow function endsWithDot that returns true if string ends with ".".
+// const endsWithDot = (input)=>{
+//   return input.endsWith(".") ? true: false;
+// }
+// console.log(endsWithDot("sagar"));
+
+
+// ======================Multiline & Template Literal Practice==============
+//  Create arrow function multiLineMessage that returns a 3-line multiline string using template literals.
+// const multiLineMessage = ()=>{
+//     return `sagar
+//     sharma
+//     is
+//     from
+//     nepal`;
+// }
+// console.log(multiLineMessage());
+
+
+// Create arrow function inviteMessage that takes event and date and returns multiline invite message:
+// const inviteMessage = ()=>{
+//     const date = 2023;
+//     const event = "greather ";
+//     const months = "july"
+//     return `hello sagar
+//     you are invited to ${event} party
+//     which is going to held in year ${date}-${months}-7th`;
+// }
+// console.log(inviteMessage());
+
+
+// Create arrow function thirdChar that returns third character of a string.
+// const thirdChar = (input)=>{
+// return input[2];
+// }
+// console.log(thirdChar("sagar"));
+
+// Create arrow function firstAndLastChar that returns a string with first and last characters joined.
+// const firstAndLastChar = (input) =>{
+//     let firstupper = input[0].toUpperCase();
+//     let lastUpper = input.slice(-1).toUpperCase();
+//     let middle = input.slice(1,-1);
+//     return ` ${firstupper}${middle}${lastUpper}`
+// }
+// console.log(firstAndLastChar("sagar"));
+
+
+// =============-More Replace & Split Practice==============
+
