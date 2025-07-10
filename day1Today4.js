@@ -1692,9 +1692,41 @@ function garde (score){
 // console.log(words);
 
 // Square each number in [2, 3, 4, 5, 6]
-const number = [2, 3, 4, 5, 6];
-const numbers = number.map((numberss)=>{
-   numbers =  numberss * 3;
+// const number = [2, 3, 4, 5, 6];
+// const numbers = number.map((numberss)=>{
+//    numbers =  numberss * 3;
 
-});
-console.log(numbers);
+// });
+// console.log(numbers);
+
+// Add 100 tax to each price in [1000, 2500, 4000, 5500]
+// const price = [1000,2500,4000,5500];
+// const withTax = price.map(withTax => withTax + 100);
+// console.log(withTax);
+
+// Add “Rs.” suffix to [500, 750, 1200]
+
+// const price = [500,750,1200];
+// const suffix = price.map(suffix => {  return `Rs.${suffix}`});
+// console.log(suffix);
+
+
+
+// Reverse each string in [“hello”, “world”]
+
+// const str = ["hello","world"];
+// const reversestr = str.map( word=> word.split('').reverse().join(''));
+// console.log(reversestr);
+
+// Add “day ” prefix to numbers [1, 2, 3, 4, 5]
+// const numbers = [1,2,3,4,5,6];
+// const prifix = numbers.map(prifix => `${prifix}day`);
+// console.log(prifix);
+
+// Convert each number to string in [10, 20, 30]
+// const nummber = [10,20,30];
+// const numbers = nummber.map(numbers => numbers.toString());
+// console.log(numbers);
+
+//  FILTER-only (15 exercises)
+// Filter odd numbers from [1, 2, 3, 4, 5, 6, 7, 8, 9]
