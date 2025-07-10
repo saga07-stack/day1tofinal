@@ -1730,3 +1730,65 @@ function garde (score){
 
 //  FILTER-only (15 exercises)
 // Filter odd numbers from [1, 2, 3, 4, 5, 6, 7, 8, 9]
+// const number = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// const oddNumbers = number.filter(oddNumbers => oddNumbers %2 == 0 );
+// console.log(oddNumbers);
+
+// Filter words that contain letter ‘a’ from [“cat”, “dog”, “bat”, “rat”]
+//  const animals = ["cat","dog","bat","rat"];
+//  const animal = animals.filter(animal=> animal.includes("a"));
+//  console.log(animal);
+
+// Filter prices less than 500 from [100, 400, 600, 900, 250]
+ 
+//  const numbers = [100,200,600,900,250];
+// const number = numbers.filter(number=> number <500 );
+// console.log(number);
+
+// // Filter names that start with ‘S’ from [“Ram”, “Sita”, “Hari”, “Suman”]
+// const names = ["Ram","Sita","Hari","Suman"];
+// const name = names.filter(name => name.startsWith("S"));
+// console.log(name);
+
+// Filter strings longer than 3 letters [“a”, “be”, “cat”, “door”]
+
+// const letters = ["a","b","cat","dog","door","welcome"];
+// const letter = letters.filter(letter => letter.trim().length >= 3);
+// console.log(letter);
+
+// // Filter numbers divisible by 5 [10, 11, 12, 15, 20, 22]
+// const numbers = [10,20,30,12,15,22];
+// const number = numbers.filter(number => number % 5 == 0);
+// console.log(number);
+
+
+// Filter words ending with ‘e’ [“apple”, “banana”, “grape”, “mango”]
+
+// const fruits = ["apple","banana","grape","mango"];
+// const fruit = fruits.filter( fruit => fruit.endsWith("e"));
+// console.log(fruit);
+
+// Filter phone numbers with length 10 [“9812345678”, “12345”, “9876543210”]
+
+// const phoneNumbers = ["9812345678", "12345", "9876543210"];
+// const number = phoneNumbers.filter ( number => number.length == 10);
+// console.log(number);
+
+
+// Filter ages less than 18 [12, 15, 20, 22, 16, 14]
+
+// const ages = [12,13,15,22,16,14];
+// const age = ages.filter(age => age<18);
+// console.log(age); 
+
+// Filter even prices [300, 500, 700, 800, 1200]
+
+// const prices = [300,500,700,800,1200];
+// const price = prices.filter(price => price % 2 == 0);
+// console.log(price);
+
+// Filter words with letter ‘r’ [“car”, “bus”, “train”, “bike”]
+// const modems = ["vcar","bus","bike","train"];
+// const modem = modems.filter(modem => modem.includes("r"));
+// console.log(modem);
+
