@@ -1491,4 +1491,126 @@ function garde (score){
 
 
 // =============-More Replace & Split Practice==============
+// # Day 9 Map & Filter (VIP)
 
+// Find a new array which gives squares of this array [1,3,5,6,8,9,11,13,15,17,18]
+// const numbers = [1,3,5,6,8,9,11,13,15,17,18];
+// const number = numbers.map((number)=>{
+//     return number * number;
+// });
+// console.log(number);
+
+// Lets make an array of 6 people. Then use a map to create a new array where we are saying to each person - Congratulations ! {name}, You are selected. 
+// const namesOfPeople = ["sagar","hari","ram","gita","shyam","shita"];
+// namesOfPeoples = namesOfPeople.map((namesOfPeoples)=>{
+// return `Congratulations ! ${namesOfPeoples} , you are selected`;
+
+// });
+// console.log(namesOfPeoples);
+
+// convert prices from dollars to rupees [23,45,250,7.5,80,100,2500,75,88,990]
+// const dollars = [23,45,250,7.5,80,100,2500,75,88,990];
+// convertRupee = dollars.map((convertRupee)=>{
+//  const oneDollar = 137;
+//     return `The price of $${convertRupee} is ${convertRupee *130}nrp`;
+// });
+// console.log(convertRupee);
+
+// These are the bike prices in Nepal. First convert it into indian rupees. 
+// Just divide the money by 1.6 [259900, 334900, 299900, 359900, 349900, 379900, 564900, 635000, 534900, 624900];
+// const bikesPriceInNepal = [259900, 334900, 299900, 359900, 349900, 379900, 564900, 635000, 534900, 624900];
+// const convertIndianRupee = bikesPriceInNepal.map((convertIndianRupee)=>{
+//     const indianRupee = 1.6;
+//     return `The indian rupee of the bikes price in nepal is ${convertIndianRupee} which is ${indianRupee*convertIndianRupee}INR`;
+// });
+// console.log(convertIndianRupee);
+
+
+// [0, 10, 20, 30, 35, 40] - Convert these temperatures from Celsius to Fahrenheit. F = (C * 9/5) + 32
+// const temperatures = [0, 10, 20, 30, 35, 40];
+// const celsiusToFahrenheit = temperatures.map((celsiusToFahrenheit=>{
+//     let fahrenheit = (celsiusToFahrenheit * 9/5)+32;
+//     return fahrenheit;
+// }));
+// console.log(celsiusToFahrenheit);
+
+//Lets resee array of those bike prices, Find the final price after 15% discount on each. 
+// const bikesPriceInNepal = [259900, 334900, 299900, 359900, 349900, 379900, 564900, 635000, 534900, 624900];
+// const AfterDiscount = bikesPriceInNepal.map((AfterDiscount)=>{
+//     const discount =  (AfterDiscount * 0.15);
+//      return `the final price after 15% discount is  ${AfterDiscount-discount}`;
+// });
+// console.log(AfterDiscount);
+
+// const numbers = [1,3,5,6,8,9,11,13,15,17,18];
+// const newNumbers = numbers.map((number)=> number * number);
+// console.log(newNumbers);
+
+//Create an array of any 8 phone numbers in form “9841234567. Then use the map to 
+//add the country code and display the number in the form +977 9841234567.
+//  const numbers = ["981221122","98387744","2873748992","934793203","987327489","987345789","8735424679","983726469895","87624893453"];
+//  const newnumbers = numbers.map((newnumbers)=> `+977${newnumbers}`);
+//  console.log(newnumbers);
+// Convert student marks into remarks - Pass or fail. 
+// Create an array of students marks with at least 8 students. 
+// Convert student marks into remarks - Pass or fail.
+//  Create an array of students marks with at least 8 students. 
+// const marks = [10,20,40,50,60,70,30,50];
+// const result = marks.map((result)=> result>=50 ? "pass": "fail")
+// console.log(result);
+// 10. Convert the usernames into emails - ["Ram","Shyam","Krishna","Raghav","Mohan","Keshav"]
+//  by adding @gmail.com at the end.
+// const emails = ["Ram","Shyam","Krishna","Raghav","Mohan","Keshav"];
+// const fullEmail = emails.map((fullEmail)=> `${fullEmail}@gmail.com`);
+// console.log(fullEmail);
+
+// const students = ["Ram","Shyam","Krishna","Raghav","Mohan","Keshav","Narayan","Vishnu","Mahesh","Ram", "Sita", "Gita", "Shyam", "Hari", "Krishna", "Anil"];
+// const student = students.map((student,index)=> {
+//     return `${index+1}.${student}`;
+// } );
+// console.log(student);
+// Convert student marks into remarks - Pass or fail. 
+// Create an array of students marks with at least 8 students. 
+// Convert student marks into remarks - Pass or fail.
+//  Create an array of students marks with at least 8 students. 
+// const marks = [10,20,40,50,60,70,30,50];
+// const result = marks.map((result)=> result>=50 ? "pass": "fail")
+// console.log(result);
+// 10. Convert the usernames into emails - ["Ram","Shyam","Krishna","Raghav","Mohan","Keshav"]
+//  by adding @gmail.com at the end.
+// const emails = ["Ram","Shyam","Krishna","Raghav","Mohan","Keshav"];
+// const fullEmail = emails.map((fullEmail)=> `${fullEmail}@gmail.com`);
+// console.log(fullEmail);
+
+// const students = ["Ram","Shyam","Krishna","Raghav","Mohan","Keshav","Narayan","Vishnu","Mahesh","Ram", "Sita", "Gita", "Shyam", "Hari", "Krishna", "Anil"];
+// const student = students.map((student,index)=> {
+//     return ` roll no${index+1}.${student}`;
+// } );
+// console.log(student);
+
+
+// What is filter ?
+// It returns a new array but only the items that satisfied the given condition. 
+// const numbers = [12, 45, 22, 37, 90, 33, 64, 11, 84];
+// const evenNumber = numbers.filter((evenNumber)=> evenNumber%2==0 );
+// console.log(evenNumber);
+// 2. Filter passed marks (marks ≥ 40)
+// const marks = [25, 80, 45, 30, 66, 42, 39, 18, 73, 51];
+// const pass = marks.filter((passed)=> passed >=40);
+// console.log(pass);
+// . Filter prices greater than Rs. 1000
+// const prices = [450, 1200, 800, 2500, 990, 1500, 600, 2000];
+// const greater = prices.filter((greater)=> greater> 1000);
+// console.log(greater);
+// . Filter names with more than 4 characters
+// const names = ["Ram", "Sita", "Gita", "Shyam", "Hari", "Krishna", "Anil"];
+// const name = names.filter((name)=> name.length >= 4);
+// console.log(name);
+// Filter cities that start with "K"
+// const cities = ["Kathmandu", "Pokhara", "Biratnagar", "Kohalpur", "Lalitpur", "Kirtipur", "Butwal"];
+// const k = cities.filter((city)=> city.startsWith("K"));
+// console.log(k);
+// 7. Filter phone numbers that start with "98"
+// const phoneNumbers = ["9812345678", "9765432100", "9823456789", "9745678901", "9867891234"];
+// const start = phoneNumbers.filter((phone) => phone.startsWith("98"));
+// console.log(start);
