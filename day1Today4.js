@@ -1792,3 +1792,74 @@ function garde (score){
 // const modem = modems.filter(modem => modem.includes("r"));
 // console.log(modem);
 
+//  MAP + FILTER combined (20 exercises)
+
+// Filter numbers greater than 10 and then subtract 5 from each [5, 12, 20, 3, 7]
+// const numbers = [12,22,33,44,50,5,4,23];
+// const number = numbers
+//  .filter(number => number >10)
+//  .map(number=> number - 5);
+//  console.log(number); 
+
+// Filter words shorter than 5 letters and convert to uppercase 
+
+// const letters = ["apple", "dog", "cat", "banana"];
+// const letter = letters
+// .filter(letter => letter.length<5)
+// .map(letter => letter.toUpperCase());
+// console.log(letter);
+
+// // Filter prices less than 1000 and add 100 tax [500, 1200, 800, 1500]
+
+// const prices = [500,300,400,1200,1300,4000];
+// const price = prices
+// .filter(price => price <1000)
+// .map(price=> price+100 );
+// console.log(price);
+
+
+// Filter names starting with ‘A’ and add “Hello ” prefix [“Anil”, “Ram”, “Asha”]
+// const names = ["Anil","Ram","Hari","Arun"];
+// const name = names
+// .filter(name=> name.startsWith("A"))
+// .map(name => `hello ${name}`);
+// console.log(name);
+
+// Filter odd numbers and square them [1, 2, 3, 4, 5]
+// const numbers = [1,2,3,4,5];
+// const number = numbers.filter(number => number % 2 == 0)
+// .map(number => number * 2);
+// console.log(number);
+
+
+// Filter names longer than 3 letters and reverse the string 
+// const names = ["ram","sagar","sharma","arun","bhandari"];
+// const name = names
+// .filter(name => name.length>3)
+// .map(name => name.split('').reverse().join(''));
+// console.log(name);
+
+
+// Filter prices above 500 and convert to dollars by dividing by 120 [600, 400, 800, 1000]
+
+// const prices = [600, 400, 800, 1000];
+// const price = prices
+// .filter(price => price >500)
+// .map(price =>Math.round( price/120));
+// console.log(price);
+
+
+// Filter numbers divisible by 3 and add 10 [3, 6, 7, 9, 10]
+
+// const numbers = [3,6,7,9,10];
+// const number = numbers.filter(number => number %3 == 0 )
+// .map(number => number+10);
+// console.log(number);
+
+// Filter phone numbers with length 10 and format as (xxx) xxx-xxxx [“9812345678”, “12345”, “9876543210”]
+
+// const phoneNumbers = ["9812214820","9822112349","29384"];
+// const phoneNumber = phoneNumbers.filter(phoneNumber=> phoneNumber.length == 10 )
+// .map(phoneNumber=> `(xxx) xxx-xxxx`);
+// console.log(phoneNumber);
+
