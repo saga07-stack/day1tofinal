@@ -1632,3 +1632,69 @@ function garde (score){
 //     });
 //     console.log(numbers);
 
+// Homework Exercises for Map, Filter & Combination
+
+//  MAP-only (15 exercises)
+// Add 5 to each number in [2, 7, 15, 22, 30]
+// const numbers = [2, 7, 15, 22, 30];
+// const number = numbers.map(number => number+5);
+// console.log(number);
+
+// Convert [“red”, “green”, “blue”] to uppercase
+// const colours = ["red","blue","green"];
+// const colour = colours.map(color => color.toUpperCase());
+// console.log(colour);
+
+// Multiply each price by 1.5 in [100, 200, 300, 400]
+// const numbers =[100, 200, 300, 400];
+// const number = numbers.map(number => number *1.5);
+// console.log(number);
+
+// Add “USD ” prefix to [50, 70, 90]
+
+// const numbers = [50,70,90];
+// const number = numbers.map(number=>{
+//     return `USD$${number}`;
+// });
+// console.log(number);
+
+// Replace each vowel in [“apple”, “orange”, “grape”] with “*”
+// const vowel = ["apple", "banana","orange","grape"];
+// const fruit = vowel
+//   .map((fruits)=> fruits.replace(/[a,e,i,o,u]/gi, "*"));
+//   console.log(fruit);
+
+
+// Extract first character from each word in [“cat”, “dog”, “bird”]
+// const animals = ["cat","dog","bird"];
+// const animal = animals.map((animal)=> {
+// return animal[0];
+
+// });
+// console.log(animal);
+
+// Add “th” suffix to numbers [1, 2, 3, 4, 5] → [“1th”, “2th”, …]
+// const numbers = [1,2,3,4,5,6];
+// const number = numbers.map(number => {
+//  return `${number}th`});
+//  console.log(number);
+
+// Convert [“Nepal”, “India”, “China”] to lowercase
+// const country = ["Nepal","India","China"];
+// const lowercase = country.map(lowercase  =>{
+// return lowercase.toLowerCase();
+// });
+// console.log(lowercase);
+
+// Calculate length of each word in [“school”, “college”, “university”]
+// const word = ["school","collage","university"];
+// const words = word.map((word)=> word.length);
+// console.log(words);
+
+// Square each number in [2, 3, 4, 5, 6]
+const number = [2, 3, 4, 5, 6];
+const numbers = number.map((numberss)=>{
+   numbers =  numberss * 3;
+
+});
+console.log(numbers);
