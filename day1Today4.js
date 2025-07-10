@@ -1614,3 +1614,21 @@ function garde (score){
 // const phoneNumbers = ["9812345678", "9765432100", "9823456789", "9745678901", "9867891234"];
 // const start = phoneNumbers.filter((phone) => phone.startsWith("98"));
 // console.log(start);
+
+// Filter prices above 1000 and then add 13 % tax to it. [900, 1200, 800, 1500, 2200]
+// const prices = [900, 1200, 800, 1500, 2200];
+// const above = prices
+// .filter(price => price > 1000)
+// .map( price => Math.round( price*1.13));
+// console.log(above);
+
+// 3. Filter phone numbers starting with "98", then add country code
+//  "+977 “   | ["9812345678", "9765432100", "9823456789", "9745678901"]
+// const phones = ["9812345678", "9765432100", "9823456789", "9745678901"];
+// const numbers = phones
+//   .filter((phone)=> phone.startsWith("98"))
+//     .map((phone)=>{
+//          return `+977${phone}`
+//     });
+//     console.log(numbers);
+
