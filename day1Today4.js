@@ -1863,3 +1863,46 @@ function garde (score){
 // .map(phoneNumber=> `(xxx) xxx-xxxx`);
 // console.log(phoneNumber);
 
+
+// =======FIND()+++========
+// it stop when it find the first match 
+
+// Imagine you have a list of days of the month when you have to go to gym, 
+// and you want to find the first even day when you have to
+//  go to gym. gymDays = [3, 5, 8, 11, 14, 15, 21, 26, 29]. 
+
+// const gymDays = [3,5,8,12,14,15,21,26,29];
+// const gymDay = gymDays.find(num => num %2==0 );
+// console.log(gymDay);
+
+// Imagine you have a list of students’ exam scores, and you want to
+//  find the first student who scored above 
+// the passing mark so you can congratulate them. 
+
+// const scores = [35, 42, 38, 50, 45, 30, 60];
+// const score = scores.find(num => num>40);
+// console.log(score);
+
+// =========findIndex()=======
+
+// Find the index of first negative
+
+// const  numbers = [5, 3, 0, -2, -5];
+// const number = numbers.findIndex(num => num<0);
+// console.log(number);
+
+// 2. Find index of first string longer than 5 characters.
+
+// const names = ['Anna', 'John', 'Elizabeth', 'Tom'];
+// const name = names.findIndex(num => num.length >5);
+// console.log(name);
+
+// =============includes('saga')=========
+
+// 1. Check if mango exist in a list 
+
+// const fruits = ['apple', 'banana', 'mango'];
+// const fruit = fruits.includes("mango");
+// console.log(fruit);
+
+
