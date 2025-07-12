@@ -1905,4 +1905,42 @@ function garde (score){
 // const fruit = fruits.includes("mango");
 // console.log(fruit);
 
+// Sum all numbers in this array using reduce():
+// const numbers = [1,1,2,3,4,5,6,7,89,];
+// const number = numbers.reduce((acc,number)=>{
+//   return Math.floor((acc + number)/numbers.length);
 
+// },0);
+
+// console.log(number);
+
+// Find the product of all numbers in this array using reduce():
+
+// const numbers = [2,3,4,5];
+// const number = numbers.reduce((acc,number)=>{
+//     return acc * number;
+// },1);
+// console.log(number);
+
+// Find the maximum number in this array using reduce()
+
+// const numbers = [1,2,3,4,10,6];
+// const maximum = numbers.reduce((accumulator,currentValue)=>{
+// return currentValue>accumulator ? currentValue:accumulator;
+// },0);
+// console.log(maximum);
+
+// Find the smallest number in this array using reduce:
+//  const numbers = [15,8,20,3,12];
+// const smallest = numbers.reduce((accumulator,currentValue)=>{
+//     return currentValue < accumulator ? currentValue:accumulator;
+
+// });
+// console.log(smallest);
+
+// Count the total number of characters in this array of strings using reduce():
+// const characters = ["hello", "world"];
+// const number = characters.reduce((accumulator, currentValue)=>{
+//  return currentValue.length;
+// });
+// console.log(number);
