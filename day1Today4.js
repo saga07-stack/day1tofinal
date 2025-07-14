@@ -1944,3 +1944,37 @@ function garde (score){
 //  return currentValue.length;
 // });
 // console.log(number);
+
+// - Find the maximum number in this array using reduce:
+    
+    // const numbers = [5, 10, 2, 8];
+    // const number = numbers.reduce((acc,maximum)=>{
+ 
+    //     return acc > maximum ? acc: maximum;
+    // });
+    // console.log(number);
+
+    // - Find the smallest number in this array using reduce:
+    
+    // const numbers = [15, 8, 20, 3, 12];
+    // const number = numbers.reduce((acc,smallest)=>{
+    //     return acc < smallest ? acc : smallest;
+    // });
+    // console.log(number);
+
+    // - Count the total number of characters in this array of strings using reduce:
+    
+    // const words = ['hello', 'world'];
+    // const word = words.reduce((acc,tNumber)=>{
+    //     return acc+tNumber.length;
+    // },0);
+    // console.log(word);
+
+    // - Count how many times the word 'apple' appears in this array using reduce:
+    
+    // const fruits = ['apple', 'banana', 'apple', 'orange', 'banana'];
+    // const fruit = fruits.reduce((acc,number)=>{
+    //     return acc === number ? acc++ : number++ 
+    // },0);
+
+    // console.log(fruit);
