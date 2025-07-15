@@ -2054,3 +2054,148 @@ function garde (score){
      
 // ];
 // console.log(fastFood[2].price);
+
+// this will give us undefine;
+// const person = {
+//     name:"shyam",
+//     class : 12,
+//     section:"A",
+//     location:"chitwan",
+//     greet : () =>{
+//         return `Good morning ${this.name}`;
+//     },
+// };
+// console.log(person.greet());
+
+
+// Create a new array and add at least two methods from outside as well as call it. 
+
+// person.sayName = function () {
+//  return `${this.name} is ${this.age} yrs old`;
+
+// };
+// console.log(person.sayName());
+
+// Create an array of 7 exercises. Each exercise has:
+
+// - `id`
+// - `name`
+// - `duration` (in minutes)
+// - `caloriesBurned`
+// - `equipmentNeeded` (boolean)
+
+// Print all exercises that do not require equipment.
+
+// const books = [
+
+//     {id:1, title: "computer", author:"ram", pages:150, isAvailable:true},
+//     {id:2, title: "science" , author: "sagar", pages:250, isAvailable:false},
+//     {id:3, title: "PTE", author:"shyam", pages:150, isAvailable:true},
+//     {id:2, title: "biology" , author: "rita", pages:2150, isAvailable:false},
+//     {id:1, title: "nepali", author:"hari", pages:150, isAvailable:true},
+//     {id:2, title: "english" , author: "sita", pages:250, isAvailable:false},
+    
+// ];
+
+// ### 4. Music Playlist
+
+// Create an array of 6 songs. Each song has:
+
+// - `id`
+// - `title`
+// - `artist`
+// - `duration` (seconds)
+// - `isFavorite` (boolean)
+
+// Print all favorite songs and their durations.
+
+// const anime = [
+//     {
+//         id:1, 
+//         title:"youungSheldon",
+//          artist:"hari", 
+//          duration:`200sec`, 
+//          isFavorite:false
+//          },
+//     {id:2,
+//      title:"onePiece",
+//       artist:"shyam",
+//        durataion:"500sec",
+//         isFavorite:true,
+//         },
+//     {id:3, 
+//     title:"naruto", 
+//     artist:"hari", 
+//     duration: "10000sec",
+//      isFavorite:false,
+//      },
+//     {id:4,
+//      title:"boruto",
+//       artist:"shyam", 
+//       durataion:"500sec", 
+//       isFavorite:true,
+//       },
+//     {id:5, 
+//     title:"gugukaison", 
+//     artist:"shyam", 
+//     durataion:"500sec",
+//      isFavorite:true,
+//      },
+// ];
+
+// const person = {
+//     name:"sagar",
+//     location:"chitwan",
+//     greet : functon () {
+//         return "good "
+//     }
+// }
+
+// const person1 = {
+//     name : "poudel",
+//     loction:"chitwan",
+//     whatsUp : function () {
+//         return "How are you";
+//     },
+// };
+// console.log(person1.whatsUp());
+
+// const fruit = {
+//     price () {
+//         return "hello how are you";
+//     },
+//   name: "mango",
+// };
+// console.log(fruit.price());
+
+// const introduction = {
+//     name: "sagar",
+//     location: "chitwan",
+//     greet () {
+//         return ` Hi ${introduction.name} How are you?`;
+//     },
+// };
+
+// const names = {
+//     name: "saga",
+//     location : "chitwan",
+//     age : 23,
+//     greet () {
+//         return `Hi i am ${this.name} and i am from ${this.location} and i am ${this.age}`;
+//     },
+
+// };
+// console.log(names.greet());
+
+// const names = {
+//     name : "poudel",
+//     location : "chitwan",
+//     saiHello () {
+//         return `hello ${this.name}`;
+//     },
+//     yourLocation () {
+//         return `your location is  ${this.location}`;
+//     },
+// };
+// console.log(names.saiHello(), names.yourLocation());
+
