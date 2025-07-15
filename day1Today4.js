@@ -2005,4 +2005,52 @@ function garde (score){
 
 // console.log(fruitCount);
 
+// -----===========-----==========--Object=============-------=======-----====
+//  Create any two objects that you like, but dont make it very simple one
+//  like {one: 1, two: 2}. Try to think as it it is useful in real world. 
 
+// const sectionB = {
+//     name : "sagar",
+//     class : 12,
+//     rollNo :20,
+//     location : "gaindakot",
+
+
+// };
+// sectionB.weight = 45;
+
+// console.log(sectionB.weight);
+// delete sectionB.class;
+// console.log(sectionB.class);
+
+// Create a similar array of objects for a normal kirana shop in nepal at least 8 products. 
+// const shopNearGaindakot = [ 
+//  {id:1, name:"rabiKirana", location:"street2", phone:"9812214820",feature : "fast Home delivery"},
+//  { id :2, name:"sabiKirana",location : "street2.1",phone:"9812214839", feature :"self service"},
+//  {id : 3, name:"hariKirana", location : "street 5",phone:"9812212821",feature:"always 20% discount"},
+//  {id : 4, name:"shyamKirana", location : "street9", phone:"982121213",feature:"cashBack upto  2k"},
+//  {id :5 , name: "kaluKirana", location : "street8", phone:"9828383828", feature:"credit card can be used"},
+//  {id :6 , name :"sanuKirana", location : "street7",phone:"9812214848", feature:"24hour open"},
+//  {id : 7, name:"sagaKirana", location :"street2",phone:"988818288", feature:"business hour is 6am to 1am"},
+// ];
+// console.log(shopNearGaindakot[0].name);
+
+// Create a similar array of objects for a normal bakery shop. 
+// const nationalBakery = [
+//  {id: 1, name:" bananaFlavour", price:"500 per pound", isAvailable : true},
+//  {id: 2, name:" vanelaFlavour", price:"550 per pound", isAvailable:false},
+//  {id: 3, name:" strawberryFlavour", price: "600 per pound", isAvailable : true},
+//  {id: 4, name: "peachFlavour", price:"650 per pound", isAvailable: true},
+//  {id: 5, name: "pineFlavour", price:"550 per pound", isAvailable: true},
+// ];
+
+// console.log(nationalBakery[3].name);
+
+// Create a similar array for a restaurant. 
+// const fastFood = [
+//     {id:1, name:"chowmin", isSpicy:false, price:"150 perPlate",isAvailable:true},
+//     {id:2, name:"momo", isSpicy:true, price:"200 per plates", isAvailable:false},
+//     {id:3, name:"jholMomo" , isSpicy:true, price:"230 per plates", isAvailable:true}
+     
+// ];
+// console.log(fastFood[2].price);
