@@ -1972,9 +1972,37 @@ function garde (score){
 
     // - Count how many times the word 'apple' appears in this array using reduce:
     
-    // const fruits = ['apple', 'banana', 'apple', 'orange', 'banana'];
-    // const fruit = fruits.reduce((acc,number)=>{
-    //     return acc === number ? acc++ : number++ 
+    //  const fruits = ['apple',  'apple',"apple", 'orange', 'banana'];
+    // const fruitCount = fruits.reduce((acc,fruit)=>{
+
+    //     return fruit === "apple"? acc +1 : acc;
     // },0);
 
-    // console.log(fruit);
+    // console.log(fruitCount);
+
+    // Q1: Use reduce to find the total avrage of the numbers
+// const numbers = [5, 10, 15, 20];
+// const sum = numbers.reduce((acc,number)=>{
+//  return Math.floor((acc + number)/numbers.length);
+// });
+// console.log(sum);
+
+
+// Q2: Use reduce to count how many times "banana" appears in the array
+// const fruits = ['apple', 'banana', 'apple', 'orange', 'banana', 'banana'];
+// const fruitCount = fruits.reduce((acc,fruit)=>{
+//  return fruit === "banana" ? acc+1 : acc;
+// },0);
+
+// console.log(fruitCount);
+
+// Q3: Use reduce to build an object that counts how many times each fruit appears
+// const fruits = ['apple', 'banana', 'apple', 'orange', 'banana', 'banana'];
+// // Output should be: { apple: 2, banana: 3, orange: 1 }
+// const fruitCount = fruits.reduce((acc,fruit)=>{
+//   return fruit === "apple" ? `apple : ${acc+1}`: fruit === "banana" ? `banana: ${acc+1}` : fruit === "orange" ? `orange: ${acc+1}`: ""
+// },0);
+
+// console.log(fruitCount);
+
+
