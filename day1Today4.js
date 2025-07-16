@@ -2379,3 +2379,84 @@ function garde (score){
 //   console.log(person);
 // const newPerson = {...person, location: "Kathmandu"};
 // console.log(newPerson);
+
+// =============----------============-----------sprade operator======-----=---=====
+// const person = {
+//     name: "sagar",
+//     class: "poudel",
+
+// };
+
+// const newPerson = {
+//     ...person,
+//     location: "chitwan",
+
+// };
+// console.log(person);
+// console.log(newPerson);
+
+// const details  = {
+//     name: "sagar",
+//     age: 23,
+//     location: "chitwan",
+
+// };
+
+// const newDetails = {
+//     ...details,
+//     occupation: "student",
+//     collage: "xyz collage",
+// };
+// console.log(details);
+// console.log(newDetails);
+
+// ========================----------=====Destructure======---------====================
+
+//  const about = {
+//     user: "sagar",
+//     location: "chitwan",
+//      occupation: "student",
+//     collage: "xyz collage",
+//  };
+//  const {user,location,occupation,collage} = about;
+//  console.log(`${user} is from ${location} and he is ${occupation}`);
+
+// ===================-----------=======---using map in object------======------======-------========----
+
+const products = [
+  {id: 1, name: "Laptop", price: 80000, isAvailable: true},
+  {id: 2, name: "TV", price: 50000, isAvailable: true},
+  {id: 3, name: "Watch", price: 5000, isAvailable: false},
+  {id: 4, name: "Phone", price: 40000, isAvailable: true},
+];
+//  const names = products.map(product=>product.name);
+//  console.log(names);
+//  const prices = products.map(product=>product.price);
+//  console.log( "35"+prices);
+//  const uppercase = names.map(name=> name.toUpperCase());
+//  console.log("37"+ uppercase);
+// const newProducts = products.map(product=> ({newName: product.name, newPrice: product.price}));
+// console.table("39" + newProducts);
+// const newIdPrices = products.map(product => ({id: product.id, name: product.name}));
+// console.log("41" + newIdPrices);
+
+// Add a new property price after discount where discount is 10% of MP. (better use spread operator).
+
+// const newProducts = products.map( product => ({...products}));
+// console.log(newProducts);
+// const newestProducts = products.map((product  =>({...product, afterdiscount: product.price *0.9})));
+// console.log(newestProducts);
+
+// Add a new property category and its value must be “budget” if it is less than or equal to 40000 and “premium” if more.  (spread operator)
+// const  category = products.map(product => ({...product, category: product.price > 40000 ? "premium":"budget"}));
+// console.log(category);
+
+// Add an new property named inStock with its value equal to isAvailable (better use spread operator).
+
+// const inStock = products.map(product => ({ ...product, inStock: product.isAvailable === true ? true: false}));
+// console.log(inStock);
+
+// Add a new property named priceWithTax whose value if 20% of MP. (spread operator)
+
+// const priceWithTax = products.map(product => ({...product, priceWithTax: (product.price * 0.2) + product.price}));
+// console.log(priceWithTax);
