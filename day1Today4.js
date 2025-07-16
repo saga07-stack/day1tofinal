@@ -2199,3 +2199,84 @@ function garde (score){
 // };
 // console.log(names.saiHello(), names.yourLocation());
 
+// const fruits = ["apple","banana","mango"];
+// console.log(fruits.includes("mango"));
+// const lists = ["a","e","i","O","u"];
+// console.log(lists.includes("f"));
+
+// const days = ["sunday","monday","tuesday","wednesday","thursday","friday","saturday"];
+// const [firstDay,,,,,,lastday] = days;
+// console.log(firstDay,lastday);
+// const numbers = [1,2,3,4,5,6,7,8];
+// const [firstNumber, , , , ,midDay, ,lastDay] = numbers;
+// console.log(firstDay,midDay,lastDay);
+
+//   const numbers = [1,2,3,4,5,6];
+//   const sum = numbers.reduce((acc,number)=>{
+//     return acc + number;
+//   },0);
+//   console.log(sum);
+
+// const numbers = [1,2,3,4,5,6];
+// const product = numbers.reduce((acc, number)=>{
+//     return acc*number;
+// },1);
+// console.log(product);
+
+// const numbers = [1,22,34,5,6,77];
+// const max = numbers.reduce((acc,  number)=>{
+//     return acc > number ? acc : number;
+// },0);
+// console.log(max);
+// - Count how many words start with a vowel using reduce:
+    
+    // const words = ['apple', 'banana', 'orange', 'grape', 'umbrella'];
+    // const vowel = ["a","e","i","o","u"];
+    // const fruit = words.reduce((acc,word)=>{
+    //     return word.startsWith(["a","e"]) ? acc+1:""; 
+    // },0);
+
+    // console.log(fruit);
+    
+// - Find the smallest odd number in this array using reduce:
+    
+    // const numbers = [11, 6, 3, 9, 14,5];
+    // const smallest = numbers.reduce((acc,number)=>{
+    //    return acc < number && acc %2 ==1 ? acc : number;
+    // },0);
+    // console.log(smallest);
+
+    // - Find the smallest even number in this array using reduce:
+    
+    // const numbers = [11, 6, 3, 9, 14,2];
+    // const even = numbers.reduce((acc, number)=>{
+    //     return acc < number && acc %2 == 0 ? acc : number;
+    // });
+    // console.log(even);
+
+    // - Count how many fruits contain the letter 'e' using reduce:
+    
+    // const fruits = ['apple', 'banana', 'grape', 'kiwi'];
+    // const contain = fruits.reduce((acc, fruit)=>{
+    //   return fruit.includes("e") ? acc+1 : acc;
+    // },0);
+
+    // console.log(contain);
+
+    // - Count how many times the number 5 appears in this array using reduce:
+    
+    // const numbers = [5, 2, 5, 7, 5, 9];
+    // const repeat = numbers.reduce((acc,number)=>{
+    //     return number === 5 ? acc +1: acc;
+    // },0);
+    // console.log(repeat);
+
+    // - Find the sum of only even numbers in this array using reduce:
+    
+    // const numbers = [4, 7, 10, 13, 16];
+    // const number = numbers.reduce((acc, number)=>{
+    //     return number % 2 == 0 ? acc + number : acc;
+    // },0);
+    // console.log(number);
+
+    
