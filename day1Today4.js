@@ -2279,4 +2279,56 @@ function garde (score){
     // },0);
     // console.log(number);
 
+    // Create an object with 2 properties and 1 method that returns a greeting message using this
+
+    // const names = {
+    //  name: "saga",
+    //  surname: "poudel",
+    //  from: "Gaindakot",
+    //  greet () {
+    //     return `Hello ${this.name} ${this.surname} you are from ${this.from} ${this.nice}`;
+    //  },
+    //  nice: "nice to meet you",
+    // };
+    // console.log(names.greet());
+
+    // Create an object with 3 properties and 2 methods 
+    // — one returns a greeting, one returns a message about the age/property.
+    // const person = {
+    //     name: "sagar",
+    //     surname: "poudel",
+    //     age: 23,
+    //     greet (){
+    //         return ` Hello ${this.name} ${this.surname}`;
+    //     },
+    //     yourAge (){
+    //         return `As per information  your age is  ${this.age}`;
+    //     },
+    // };
+    // console.log(person.greet(), person.yourAge());
+
+
+    // Add a method from outside the object that returns a message using this. Call it and print.
     
+    // const info = { 
+    //     name: "saga",
+    //     location: "gaindakot",
+    //     age: 23,
+    // };
+
+    // info.greet = function (){
+    //     return `Hello ${this.name} how you doing you are from ${this.location} isn't it `;
+    // } ;
+    // console.log(info.greet());
+
+
+    // Create an object with a method and call that method to print a message.
+
+    const messages = {
+        name: "saga",
+        greet (){
+          return  `hello ${this.name} how are you`;
+        },
+    };
+
+    console.log(messages.greet());
