@@ -2460,3 +2460,42 @@ const products = [
 
 // const priceWithTax = products.map(product => ({...product, priceWithTax: (product.price * 0.2) + product.price}));
 // console.log(priceWithTax);
+
+// Create at least 5 array of objects similar to above and then for each array of objects, solve at least 8 questions like above. 
+
+const production = [
+    {id: 1,
+     productName: "chowmen", 
+     productDate: 2025/10/20, 
+     sellsArea: 50, 
+     },
+     {
+        id: 2,
+        productName: "chilli momo",
+        productDate: 2025/5/25,
+        sellsArea: 100,
+     },
+     
+     {
+        id: 3,
+        productName: "steam momo",
+        productDate: 2025/12/4,
+        sellsArea: 150,
+
+     },
+     {
+        id: 4,
+        productName: "chicken chowmen",
+
+        productDate: 2025/30/20,
+        sellsArea : 200, 
+     },
+     {
+        id: 5,
+        productName: "fry momo",
+        productDate: 2025/3/13,
+        sellsArea: 20,
+     },
+
+
+];
