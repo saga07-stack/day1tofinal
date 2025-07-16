@@ -2324,11 +2324,58 @@ function garde (score){
 
     // Create an object with a method and call that method to print a message.
 
-    const messages = {
-        name: "saga",
-        greet (){
-          return  `hello ${this.name} how are you`;
-        },
-    };
+    // const messages = {
+    //     name: "saga",
+    //     greet (){
+    //       return  `hello ${this.name} how are you`;
+    //     },
+    // };
 
-    console.log(messages.greet());
+    // console.log(messages.greet());
+// --------==========--------Dynamic Method Addition--------==========--------
+//    Create an array and add two methods from outside: one that returns the length and one that returns a message.
+//     const arry = [
+//        {length: 250,
+//         message: "hello how are you guys",
+//        },
+
+//     ];
+//     arry.lengths = function (){
+//         return ` ${arry[0].length}`
+//     }
+//     arry.greet = function (){
+//    return `${arry[0].message}`
+        
+//     };
+//   console.log(arry.lengths());
+//   console.log(arry.greet());
+ 
+// Create an object dynamically and add two methods from outside. Call both.
+//   const dynamically = [
+
+//   ]
+//   dynamically.greet = function (){
+//     return "i was created from outside ";
+//   };
+
+//   dynamically.howYp = function () {
+//     return "hello i am also from the outside ";
+//   };
+//   console.log(dynamically.greet(),dynamically.howYp());
+
+    // ---------==========-------=======----strings primitve vs string object ============-----=======-----
+//    1 create a string primitive "hello ".prints its length property
+//    const greet = "hello";
+//    console.log(greet.length);
+//   console.log(greet.toUpperCase());
+
+    // ---------==========-------=======----property vs method concept ============-----=======-----
+   
+
+   
+    // ---------==========-------=======----spread operator============-----=======-----
+    
+//     const person = {name: "Ram", age: 25};
+//   console.log(person);
+// const newPerson = {...person, location: "Kathmandu"};
+// console.log(newPerson);
