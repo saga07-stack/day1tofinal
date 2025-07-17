@@ -2423,12 +2423,20 @@ function garde (score){
 
 // ===================-----------=======---using map in object------======------======-------========----
 
-const products = [
-  {id: 1, name: "Laptop", price: 80000, isAvailable: true},
-  {id: 2, name: "TV", price: 50000, isAvailable: true},
-  {id: 3, name: "Watch", price: 5000, isAvailable: false},
-  {id: 4, name: "Phone", price: 40000, isAvailable: true},
-];
+// const products = [
+//   {id: 1, name: "Laptop", price: 80000, isAvailable: true},
+//   {id: 2, name: "TV", price: 50000, isAvailable: true},
+//   {id: 3, name: "Watch", price: 5000, isAvailable: false},
+//   {id: 4, name: "Phone", price: 40000, isAvailable: true},
+// ];
+
+// const newProducts = products.map(product => ({...product, newProduct: product.price >4000 ? "expensive":"economy"}));
+// console.table(newProducts);
+
+
+//  const category = products.map(product=> ({...product,category: product.price > 40000 ? "premium": "budget" }));
+// console.table(category);
+
 //  const names = products.map(product=>product.name);
 //  console.log(names);
 //  const prices = products.map(product=>product.price);
@@ -2444,9 +2452,11 @@ const products = [
 
 // const newProducts = products.map( product => ({...products}));
 // console.log(newProducts);
-// const newestProducts = products.map((product  =>({...product, afterdiscount: product.price *0.9})));
+// const newestProducts = products.map((product  =>({...product, afterdiscount: product.price *0.75})));
 // console.log(newestProducts);
 
+// const productAfterDiscount = products.map ( product => ({...product, afterDiscount: product.price *0.75 }))
+// console.log(productAfterDiscount);
 // Add a new property category and its value must be “budget” if it is less than or equal to 40000 and “premium” if more.  (spread operator)
 // const  category = products.map(product => ({...product, category: product.price > 40000 ? "premium":"budget"}));
 // console.log(category);
@@ -2463,39 +2473,79 @@ const products = [
 
 // Create at least 5 array of objects similar to above and then for each array of objects, solve at least 8 questions like above. 
 
-const production = [
-    {id: 1,
-     productName: "chowmen", 
-     productDate: 2025/10/20, 
-     sellsArea: 50, 
-     },
-     {
-        id: 2,
-        productName: "chilli momo",
-        productDate: 2025/5/25,
-        sellsArea: 100,
-     },
+// const production = [
+//     {id: 1,
+//      productName: "chowmen", 
+//      productDate: 2025/10/20, 
+//      sellsArea: 50, 
+//      price: 250,
+//      },
+//      {
+//         id: 2,
+//         productName: "chilli momo",
+//         productDate: 2025/5/25,
+//         sellsArea: 100,
+//         price: 350,
+//      },
      
-     {
-        id: 3,
-        productName: "steam momo",
-        productDate: 2025/12/4,
-        sellsArea: 150,
+//      {
+//         id: 3,
+//         productName: "steam momo",
+//         productDate: 2025/12/4,
+//         sellsArea: 150,
+//         price: 300,
 
-     },
-     {
-        id: 4,
-        productName: "chicken chowmen",
+//      },
+//      {
+//         id: 4,
+//         productName: "chicken chowmen",
 
-        productDate: 2025/30/20,
-        sellsArea : 200, 
-     },
-     {
-        id: 5,
-        productName: "fry momo",
-        productDate: 2025/3/13,
-        sellsArea: 20,
-     },
+//         productDate: 2025/30/20,
+//         sellsArea : 200,
+//         price: 250, 
+//      },
+//      {
+//         id: 5,
+//         productName: "fry momo",
+//         productDate: 2025/3/13,
+//         sellsArea: 20,
+//         price: 300,
+//      },
 
 
-];
+// ];
+// const afterDiscount = production.map(product=>({...product, afterDiscount: product.price*0.75}));
+// console.table(afterDiscount);
+
+// const products = [
+//   {id: 1, name: "Laptop", price: 80000, isAvailable: true},
+//   {id: 2, name: "TV", price: 50000, isAvailable: true},
+//   {id: 3, name: "Watch", price: 5000, isAvailable: false},
+//   {id: 4, name: "Phone", price: 40000, isAvailable: true},
+
+// ];
+// const priceBetween = products.filter(product => product.isAvailable == true&& product.price > 10000 && product.price <60000);
+// console.table(priceBetween);
+
+// const startWithP = products.filter(product => product.name.startsWith("P"));
+// console.table(startWithP);
+
+// const nameLengths = products.filter(product => product.name.length >= 5);
+// console.table(nameLengths);
+
+// const unavilable = products.filter(product => product.price >= 10000 && product.isAvailable === false);
+// console.table(unavilable);
+
+
+// const expensive = products.filter(product => product.price > 50000);
+// console.table(expensive);
+
+// const priceExectly = products.filter(product=> product.price === 50000);
+// console.table(priceExectly);
+
+// const cheaperProduct = products.filter(product => product.price < 50000);
+// console.table(cheaperProduct);
+// const UnavilableProducts = products.filter(product => product.isAvailable === false);
+// console.table(UnavilableProducts);
+// const availableProducts = products.filter(product => product.isAvailable === true);
+// console.table(availableProducts);
