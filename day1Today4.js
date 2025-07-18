@@ -2549,3 +2549,124 @@ function garde (score){
 // console.table(UnavilableProducts);
 // const availableProducts = products.filter(product => product.isAvailable === true);
 // console.table(availableProducts);
+
+
+// let a = "5";
+// let  b = 10;
+// let sum = parseInt (a)+b;
+// console.log(sum);
+
+// const compareNumbers = function (a, b){
+//     if (a>b){
+//         return "a is greater ";
+//     }else if (b>a){
+//         return "b is greater";
+
+//     }else{
+//         return "equal"
+//     };
+//     };
+//     console.log(compareNumbers(10,10));
+
+
+// const types = function (a){
+//     return Object.prototype.toString.call(a)
+// };
+// console.log(types(10));
+
+
+// const grade = function (score){
+// return   score >= 90 ? "A": score >= 75 ? "B": "C";
+
+// }
+// console.log(grade(9));
+
+
+// let input = prompt("number between 1- 10");
+// let randoms =Math.floor (Math.random()*10);
+// console.log(randoms);
+// while (randoms === input) {
+//     alert ("correct");
+    
+// }
+
+// const name = function (first, second){
+//     firstCap = first[0].toUpperCase();
+//     secondCap = second[0].toUpperCase();
+//     cutFirst = first.slice(1);
+//     cutSecond = second.slice(1);
+//     return firstCap+cutFirst+ " " +secondCap+cutSecond;
+// };
+// console.log(name("sagar", "sharma"));
+
+// const input = function (email){
+//     return email.includes("@") && email.includes(".com") ? "valid email": "invaild email";
+// };
+// console.log(input("sagarmatha603@gmail.com"));
+// ===============--------------------===========================================-
+// const output = function (input){
+//     let even = 0;
+//     let odd = 0;
+    
+//    input.map(output => (output% 2 === 0 ? `even: ${even+=output}` : `odd: ${odd += output}`)); 
+//    return `even: ${even}  odd:${odd}`
+// };
+
+// console.log(output([1,2,3,4,5]));
+
+// -----==============----==========----========-----========----=--=-=--=-=-=-=-=-=--
+
+// const users = [
+//   { name: "Ajay", age: 21 },
+//   { name: "Sara", age: 17 },
+//   { name: "Mina", age: 25 }
+// ];
+//  const elder = users.filter(elder => elder.age >= 18);
+//  const returns = users.map(return1 => return1);
+//  console.log(returns);
+
+const products = [
+  { id: 1, name: "MacBook Pro", category: "Laptop", price: 180000, isAvailable: true, rating: 4.8 },
+  { id: 2, name: "Dell Inspiron", category: "Laptop", price: 90000, isAvailable: true, rating: 4.2 },
+  { id: 3, name: "Samsung Galaxy S21", category: "Phone", price: 70000, isAvailable: false, rating: 4.5 },
+  { id: 4, name: "iPhone 13", category: "Phone", price: 120000, isAvailable: true, rating: 4.7 },
+  { id: 5, name: "Sony Bravia", category: "TV", price: 150000, isAvailable: true, rating: 4.6 },
+  { id: 6, name: "LG OLED", category: "TV", price: 170000, isAvailable: false, rating: 4.4 },
+  { id: 7, name: "Fossil Smartwatch", category: "Watch", price: 25000, isAvailable: true, rating: 4.1 },
+  { id: 8, name: "Casio Digital", category: "Watch", price: 5000, isAvailable: true, rating: 4.0 },
+  { id: 9, name: "HP Pavilion", category: "Laptop", price: 75000, isAvailable: true, rating: 4.3 },
+  { id: 10, name: "Realme 11 Pro", category: "Phone", price: 33000, isAvailable: true, rating: 4.2 }
+];
+
+const highestRating = products.reduce((acc, product) =>{
+    let highestRating = product.rating > acc ? product.rating : acc;
+    return product.
+},0)
+console.log(highestRating);
+
+
+
+
+// const count = products.reduce((acc, product)=>{
+//     acc[product.category] = acc[product.category]? acc[product.category]+1: 1;
+//     return acc;
+// },{});
+// console.log(count);
+
+
+
+// const highestProduct = products.reduce((acc, product)=>{
+//     return product.price > acc ? acc = product.price : acc;
+// },0)
+// console.log(highestProduct);
+
+
+// const onlyAvilable = products.reduce((acc, product )=>{
+//     return product.isAvailable === true ? acc + product.price : acc;
+// },0);
+// console.log(onlyAvilable);
+
+// const totalPrice =products.reduce((acc,product)=> {
+//  return acc+ product.price ;
+// },0);
+// console.log(totalPrice);
