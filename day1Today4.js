@@ -2638,11 +2638,71 @@ const products = [
   { id: 10, name: "Realme 11 Pro", category: "Phone", price: 33000, isAvailable: true, rating: 4.2 }
 ];
 
-const highestRating = products.reduce((acc, product) =>{
-    let highestRating = product.rating > acc ? product.rating : acc;
-    return product.
-},0)
-console.log(highestRating);
+// find the product with the longest name 
+ const longest = products.reduce((acc, product)=>{
+    let a =  product.name.length  
+ },1)
+console.log(longest);
+
+
+
+// count how many products have rating >=4.5
+
+// const rating = products.reduce((acc, product)=>{
+//     return product.rating >= 4.5  ? acc +1 : acc;
+// },0);
+// console.log(rating);
+
+
+
+
+// total price of laptop products
+
+// const laptopProducts = products.reduce((acc, product)=>{
+//     return product.category === "Laptop" ? acc + product.price : acc;
+// },0);
+// console.log(laptopProducts);
+
+
+
+// total number of available products
+
+// const available = products.reduce((acc, product)=>{
+//     return product.isAvailable === true?  acc + 1 : acc;
+// },0);
+// console.log(available);
+
+
+
+// // Total number of unavailable products
+// const unavailable = products.reduce((acc, product)=>{
+//     return product.isAvailable === false ? acc + 1 : acc;
+// },0);
+// console.table(unavailable);
+
+
+
+// Find the product with the highest rating - if its difficult lets find the highest rating first.
+//  const highestRating = products.reduce((acc, product)=>{
+//  let highestRating1 =  product.rating > acc ? product.rating: acc;
+//   const productWithHighestRating = products.filter(product => product.rating.includes(highestRating1));
+//   return productWithHighestRating;
+
+
+//  },0);
+
+// console.log(highestRating);
+
+
+// Average rating of all products - total rating
+
+// const highestRating = products.reduce((acc, product) =>{
+//     let totalRating =  product.rating > acc  ? product.rating : acc;    
+//     return totalRating;
+
+// },0)
+// let avrageRating = highestRating / products.length;
+// console.log(avrageRating);
 
 
 
@@ -2664,7 +2724,7 @@ console.log(highestRating);
 // const onlyAvilable = products.reduce((acc, product )=>{
 //     return product.isAvailable === true ? acc + product.price : acc;
 // },0);
-// console.log(onlyAvilable);
+// console.table(onlyAvilable);
 
 // const totalPrice =products.reduce((acc,product)=> {
 //  return acc+ product.price ;
