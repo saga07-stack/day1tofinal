@@ -2639,10 +2639,11 @@ const products = [
 ];
 
 // find the product with the longest name 
- const longest = products.reduce((acc, product)=>{
-    let a =  product.name.length  
- },1)
-console.log(longest);
+const longests  = products.reduce((longest,product)=>{
+    return product.name.length > product.name.length ? product : longest;
+});
+console.log(longests);
+
 
 
 
