@@ -2763,3 +2763,18 @@ const products = [
 // const arr = ["apple","banana","mango"];
 // const lessThen = arr.some(product => product.length < 4 );
 // console.log(lessThen);
+
+
+// =======---============---====== eery method =======-====-=-==-=-==-=-=-====-
+// check all the students are passed in exam or not [45,98,67,77,33,48,32] pass marks is 40
+
+// const result = [45,98,67,77,33,48,32];
+// const passed = result.every(pass => pass  > 40);
+// console.log(passed);
+
+// // check if the words are of length more then 4 or not ["apple","banana","mango"]
+
+// const fruits = ["apple","banana","mango"];
+// const fruit = fruits.every(fruit => fruit.length > 4);
+// console.log(fruit);
+
