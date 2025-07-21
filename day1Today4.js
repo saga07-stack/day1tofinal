@@ -2638,11 +2638,31 @@ const products = [
   { id: 10, name: "Realme 11 Pro", category: "Phone", price: 33000, isAvailable: true, rating: 4.2 }
 ];
 
+// Find the product with the highest rating - if its difficult lets find the highest rating first.
+//  const higest = products.reduce((acc,product)=>{
+//   return product.rating > product.rating ? product : acc;  
+//  });
+// console.log(higest);
+
+
+// Find the product with the longest name
+ 
+//  const longest = products.reduce((acc, product)=>{
+//     return product.name.length > acc.name.length ? product: acc;
+//  });
+//  console.log(longest);
+
+
+
+
+
+
+
 // find the product with the longest name 
-const longests  = products.reduce((longest,product)=>{
-    return product.name.length > product.name.length ? product : longest;
-});
-console.log(longests);
+// const longests  = products.reduce((longest,product)=>{
+//     return product.name.length > product.name.length ? product : longest;
+// });
+// console.log(longests);
 
 
 
