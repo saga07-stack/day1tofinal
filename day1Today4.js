@@ -2814,3 +2814,42 @@ const products = [
 //     return acc + number 
 // });
 // console.log(sum);
+// 1. Square and Sum
+// Given an array of numbers, square each number, filter out numbers greater than 50, and then return the sum of the remaining numbers.
+
+// const numbers = [2, 5, 8, 10, 3];
+// const square = numbers
+// .map(number => number * number)
+// .filter(number=> number < 50)
+// .reduce((acc, number)=>{
+//     return acc +number;
+// });
+// console.log(square);
+
+// Find Average Age
+// From a list of users, filter out those younger than 18, map to their ages, and then find the average age.
+
+// const users = [
+//   { name: "Ajay", age: 16 },
+//   { name: "Sita", age: 22 },
+//   { name: "Hari", age: 19 },
+//   { name: "Mina", age: 15 }
+// ];
+// const avrages = users
+// .filter(user => user.age >= 18)
+// .map (user => user.age)
+// .reduce((acc, number,_,arr)=>{
+//     return (acc + number)/arr.length ;
+// });
+
+// console.log(avrages);
+
+//  Count Long Words
+// Given an array of words, count how many words have more than 5 letters (after converting all to lowercase).
+
+const words = ["Elephant", "Cat", "Hippopotamus", "dog", "Dinosaur"];
+const count = words.filter((word)=>{
+    word.length > 5;
+    return word.toUpperCase();
+});
+console.log(count);
