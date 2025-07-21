@@ -2778,3 +2778,31 @@ const products = [
 // const fruit = fruits.every(fruit => fruit.length > 4);
 // console.log(fruit);
 
+// =======-----====araray ma spread operator =====----==========------====
+
+// const number =  [1,3,4,5,56];
+// const newNumber = [...number,36];
+// console.log(newNumber);
+
+// const numbers = [1,2,3,4,5];
+// const numbers1 = [1,2,3,4,5,6];
+// const newNumber = [...numbers, ...numbers1];
+// console.log(newNumber);
+
+// const apple = "apple";
+// const newApple = [...apple];
+// console.log(newApple);
+
+// const ball = "ball";
+// const newBall = [...ball];
+// console.log(newBall);
+
+// const numbers = [10,20,30,40,100];
+// console.log(Math.max(...numbers));
+
+// const number = [1,2,3,4,5,6,7,8];
+// console.log(Math.max(...number));
+// const newNumbers = [...number,...numbers];
+// console.log(Math.max(...newNumbers));
+
+
