@@ -2652,19 +2652,11 @@ const products = [
 //  });
 //  console.log(longest);
 
-
-
-
-
-
-
 // find the product with the longest name 
 // const longests  = products.reduce((longest,product)=>{
 //     return product.name.length > product.name.length ? product : longest;
 // });
 // console.log(longests);
-
-
 
 
 // count how many products have rating >=4.5
@@ -2751,3 +2743,23 @@ const products = [
 //  return acc+ product.price ;
 // },0);
 // console.log(totalPrice);
+
+
+// ==============--------=====-==-= SOME() methods===-=-=-==-=-=-==-=-==-=-====-=-==
+
+// const numbers = [1,2,3,4,5,6];
+// const even = numbers.some(number => number % 2 === 0);
+// console.log(even);
+
+
+// check if the array [10,20,30,40,50] has at least a number ,more then 40
+
+// const numbers = [10,20,30,40,50];
+// const moreThen = numbers.some(product => product > 40);
+// console.log(moreThen);
+
+// // check if the array ["apple","banana","mango"] has at least a string whose length is less then 4
+
+// const arr = ["apple","banana","mango"];
+// const lessThen = arr.some(product => product.length < 4 );
+// console.log(lessThen);
