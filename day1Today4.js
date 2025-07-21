@@ -2806,3 +2806,11 @@ const products = [
 // console.log(Math.max(...newNumbers));
 
 
+// const numbers = [10,20,30,40,50];
+// const sum = numbers
+//  .filter(number => number % 2 == 0 )
+//  .map(number => number * 2)
+//  .reduce((acc,number)=>{
+//     return acc + number 
+// });
+// console.log(sum);
