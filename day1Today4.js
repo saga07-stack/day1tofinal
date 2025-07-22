@@ -2847,9 +2847,10 @@ const products = [
 //  Count Long Words
 // Given an array of words, count how many words have more than 5 letters (after converting all to lowercase).
 
-const words = ["Elephant", "Cat", "Hippopotamus", "dog", "Dinosaur"];
-const count = words.filter((word)=>{
-    word.length > 5;
-    return word.toUpperCase();
-});
-console.log(count);
+// const words = ["Elephant", "Cat", "Hippopotamus", "dog", "Dinosaur"];
+// const count = words.filter((word)=>{
+//     word.length > 5;
+//     return word.toUpperCase();
+// });
+// console.log(count);
+

@@ -4,9 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-        <style>
-     
-    </style>
+    <script src="./day1Today4.js"></script>
 </head>
 <body>
    <div>
@@ -14,19 +12,23 @@
     <input type="number" name="add" id="add" onclick="add()">
      <input type="number" name="minus" id="minus">
    </div>
-    
+    <h1 id="heading"></h1>
+    <p id="location"></p>
+    <p id="about"></p>
+    <input type="text" name="age-input">
    
-    <script>''
-     document.getElementById("add").addEventListener("click", function(){
-       
-     });
-     function add(){
-        const total =  document.getElementById("total").value;
-        const a = document.getElementById("add").value;
-         total  += a;
-         
-     }
+    <script>
+        const heading = document.getElementById("heading").innerText = "hello"
+ const age = document.querySelector('[name="age-input]').innerText = "hello";
+
+const heading1 = document.getElementById("heading").innerText= "saga";
+const about = document.getElementById("about").innerText= "i am a noob programmer ";
+const location = document.getElementById("location").innerText= "i am from chitwan";
+
+
+
+
     </script>
-    <link rel="stylesheet" href="./day1Today4.js">
+
 </body>
 </html>
