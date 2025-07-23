@@ -10,8 +10,50 @@
      <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <button id="button" >click</button>
-    <script src="day1Today4.js">  
+
+<h1 id="name"></h1>
+    </script>
+    <script>
+        // const pra = document.createElement("p");
+        // const btn = document.createElement("button");
+
+        // btn.innerText = "click me";
+        // pra.innerText = "sagar";
+        // document.body.appendChild(btn);
+        // document.body.appendChild(pra);
+        //   const unOrderList = document.createElement("ul");
+        //   const li1 = document.createElement("li")
+        //   const li2 = document.createElement("li")
+        //   const li3 = document.createElement("li")
+        //  li1.innerText = "banana";
+        //  li2.innerText = "apple";
+        //  li3.innerText = "chery";
+        //  document.body.appendChild(ul);
+        //  document.body.appendChild(li1);
+        //  ul.appendChild(li2);
+        //  ul.appendChild(li3);
+        //  const text = document.createElement("h1");
+        //  text.innerText = "hello";
+        //  document.body.appendChild(text);
+        //  const innerHtml =  document.createElement("p");
+        //  innerHtml.innerHTML = "helloByInnerHtml";
+        //  document.body.appendChild(innerHtml);
+        //  const innerTextContent =
+   const name = document.createElement("h1");
+        
+        document.body.appendChild(name);
+        const btn = document.createElement("button");
+        btn.innerText = "click me";
+        document.body.appendChild(btn);
+        btn.addEventListener("click",()=>{
+           
+            btn.innerText = "got Clicked"
+          document.getElementById("name").innerText= "sagar";
+            
+            alert("button clicked")
+        })
+
+      
     </script>
 </body>
 </html>
