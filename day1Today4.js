@@ -2625,18 +2625,18 @@ function garde (score){
 //  const returns = users.map(return1 => return1);
 //  console.log(returns);
 
-const products = [
-  { id: 1, name: "MacBook Pro", category: "Laptop", price: 180000, isAvailable: true, rating: 4.8 },
-  { id: 2, name: "Dell Inspiron", category: "Laptop", price: 90000, isAvailable: true, rating: 4.2 },
-  { id: 3, name: "Samsung Galaxy S21", category: "Phone", price: 70000, isAvailable: false, rating: 4.5 },
-  { id: 4, name: "iPhone 13", category: "Phone", price: 120000, isAvailable: true, rating: 4.7 },
-  { id: 5, name: "Sony Bravia", category: "TV", price: 150000, isAvailable: true, rating: 4.6 },
-  { id: 6, name: "LG OLED", category: "TV", price: 170000, isAvailable: false, rating: 4.4 },
-  { id: 7, name: "Fossil Smartwatch", category: "Watch", price: 25000, isAvailable: true, rating: 4.1 },
-  { id: 8, name: "Casio Digital", category: "Watch", price: 5000, isAvailable: true, rating: 4.0 },
-  { id: 9, name: "HP Pavilion", category: "Laptop", price: 75000, isAvailable: true, rating: 4.3 },
-  { id: 10, name: "Realme 11 Pro", category: "Phone", price: 33000, isAvailable: true, rating: 4.2 }
-];
+// const products = [
+//   { id: 1, name: "MacBook Pro", category: "Laptop", price: 180000, isAvailable: true, rating: 4.8 },
+//   { id: 2, name: "Dell Inspiron", category: "Laptop", price: 90000, isAvailable: true, rating: 4.2 },
+//   { id: 3, name: "Samsung Galaxy S21", category: "Phone", price: 70000, isAvailable: false, rating: 4.5 },
+//   { id: 4, name: "iPhone 13", category: "Phone", price: 120000, isAvailable: true, rating: 4.7 },
+//   { id: 5, name: "Sony Bravia", category: "TV", price: 150000, isAvailable: true, rating: 4.6 },
+//   { id: 6, name: "LG OLED", category: "TV", price: 170000, isAvailable: false, rating: 4.4 },
+//   { id: 7, name: "Fossil Smartwatch", category: "Watch", price: 25000, isAvailable: true, rating: 4.1 },
+//   { id: 8, name: "Casio Digital", category: "Watch", price: 5000, isAvailable: true, rating: 4.0 },
+//   { id: 9, name: "HP Pavilion", category: "Laptop", price: 75000, isAvailable: true, rating: 4.3 },
+//   { id: 10, name: "Realme 11 Pro", category: "Phone", price: 33000, isAvailable: true, rating: 4.2 }
+// ];
 
 // Find the product with the highest rating - if its difficult lets find the highest rating first.
 //  const higest = products.reduce((acc,product)=>{
@@ -2991,3 +2991,79 @@ const products = [
 // for(let fruit of newFruits){
 //     console.log(fruit.newFruits,fruit.newRate,fruit.newQuantity);
 // };
+
+// const numbers = [1, 2, 3, 4, 5, 6];
+// // 1) Filter only even numbers
+// // 2) Square them
+// // 3) Find the total sum
+// const evenNumber = numbers
+// .filter(number => number % 2 == 0)
+// .map(number => number * number)
+// .reduce ((acc,number)=>{
+//     return acc + number;
+// },0);
+// console.log(evenNumber);
+
+// const products = [
+//   { name: "Book", price: 10, available: true },
+//   { name: "Pen", price: 5, available: false },
+//   { name: "Bag", price: 25, available: true }
+// ];
+// // 1) Filter only available products
+// // 2) Double their price
+// // 3) Get the total price
+// const available = products
+// .filter(product => product.available == true)
+// .map(number => number.price * 2)
+// .reduce ((acc, number)=>{
+//     return acc + number;
+// },0);
+// console.log(available);
+
+// const names = ["Ajay", "Sita", "Jonathan", "Mina","sagar","poudel"];
+// // 1) Filter names with length > 4
+// // 2) Convert names to uppercase
+// // 3) Count total characters
+// const name = names
+// .filter(name => name.length  > 4)
+// .map (name=> name.toUpperCase())
+// .reduce((acc, name)=>{
+//     return acc + name.length;
+// },0);
+// console.log(name);
+
+// const students = [
+//   { name: "A", score: 45 },
+//   { name: "B", score: 80 },
+//   { name: "C", score: 60 },
+//   { name: "D", score: 30 }
+// ];
+// 1) Filter students with score >= 50
+// 2) Get only their scores
+// 3) Find the average score
+
+// const passed = students
+// .filter(pass => pass.score >= 50)
+// // console.log(passed);
+// .map(pass => pass.score )
+// .reduce ((acc, pass,_,arr)=>{
+//     return (acc+pass)/ arr.length;
+// },0)
+// console.log(passed);
+
+const people = [
+  { name: "Ram", age: 15 },
+  { name: "Shyam", age: 22 },
+  { name: "Hari", age: 30 }
+];
+// 1) Filter adults (age >= 18)
+// 2) Add 10 to their age (future age)
+// 3) Find total combined age
+const greaterAge = people
+.filter(age => age.age >= 18)
+.map (age => age.age + 10)
+.reduce((acc, age)=>{
+    return acc + age;
+});
+
+console.log(greaterAge);
