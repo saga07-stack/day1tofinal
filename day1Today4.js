@@ -2854,3 +2854,140 @@ const products = [
 // });
 // console.log(count);
 
+// class about {
+//     name = "sagar";
+//     location = "chitwan";
+//     age = 23;
+//     greet (){
+//         return "good evening";
+//     };
+// };
+
+
+// class car {
+//     driveMode = "auto";
+//     driveSide = "left hand side ";
+//     milage (){
+//         return "you car can give upto 15km/l";
+//     };
+//     mentenance (){
+//         return "mentenance should be in 2 months or 5k/km";
+//     };
+// };
+
+// const Car =  class  {
+//     color = "red";
+//     maker = "dodge";
+//     modle (){
+//         return "your car is mustangGT";
+//     };
+//     engine (){
+//         return "8.5l supercharged hellcat ";
+//     };
+
+// };
+
+// class about {
+//     name = "sita";
+//     age = 24;
+//     greet (){
+//         return "how are you";
+//     };
+// };
+
+// const person = new about ();
+// console.log(person.greet());
+
+
+// class Car {
+//     brand = "mustang";
+//     model = "mustangGT";
+//     engine (){
+//         return "your car engine is 8.5l V8 engine with supercharged engine";
+
+//     };
+//     horsePower (){
+//         return "you car can generate a 800horsePower ";
+//     };
+// };
+
+// const Car1 = new Car();
+// console.log(Car1.brand);
+// console.log(Car1.engine());
+// const Car2 = new Car();
+// console.log(Car2.model);
+// console.log(Car2.horsePower());
+
+// class About {
+//     constructor (name,age){
+//         this.name = name;
+//         this.age = age;
+//     };
+// };
+// const about = new About ("sagar",20);
+// console.log(about.name);
+
+
+// class Car {
+//     name = "supra";
+//     year = "2020";
+//     constructor (want, year){
+//      this.wanted = want;
+//      this. wantedYear = year;
+//     };
+// };
+
+// const wantedCar = new Car ("skyline",2025);
+// console.log(wantedCar.wanted);
+// console.log(wantedCar.wantedYear);
+
+// class Fruit {
+//     constructor (fruit,rate,quantity){
+//         this.fruit = fruit;
+//         this.rate = rate;
+//         this.quantity= quantity;
+//     };
+// };
+
+// const fruits = new Fruit ("Mango",20,"10kg");
+// console.log(fruits.fruit,fruits.rate,fruits.quantity);
+// const fruits1 = new Fruit ("apple",10,"5kg");
+// console.log(fruits1.fruit,fruits1.rate,fruits.quantity);
+// const fruits2 = new Fruit ("banana",30,"4kg");
+// console.log(fruits2.fruit,fruits2.rate,fruits2.quantity);
+
+
+// class Fruit {
+//     constructor(name, rate, quantity) {
+//         this.name = name;
+//         this.rate = rate;
+//         this.quantity = quantity;
+//     }
+// }
+// const apple = new Fruit("Apple",100, 5);
+// const mango = new Fruit("Manfo",300, 15);
+// const orange = new Fruit("Orange",350, 6);
+
+// const fruits = [];
+// fruits.push(apple,mango,orange);
+// for(let fruit of fruits) {
+//     console.log(fruit.name,fruit.rate,fruit.quantity);
+// }
+
+// class Fruits {
+//     constructor (fruits, rate, quantity){
+//         this.newFruits = fruits;
+//         this.newRate = rate;
+//         this.newQuantity = quantity;
+
+//     };
+// };
+
+// const fruit = new Fruits ("mango ",15,20);
+// const fruit1 = new Fruits ("litchi", 20 , 20);
+// const fruit2 = new Fruits ("apple",10,22);
+// const newFruits = [];
+// newFruits.push(fruit,fruit1,fruit2);
+// for(let fruit of newFruits){
+//     console.log(fruit.newFruits,fruit.newRate,fruit.newQuantity);
+// };
