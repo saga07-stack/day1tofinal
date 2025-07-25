@@ -3051,19 +3051,72 @@ function garde (score){
 // },0)
 // console.log(passed);
 
-const people = [
-  { name: "Ram", age: 15 },
-  { name: "Shyam", age: 22 },
-  { name: "Hari", age: 30 }
-];
-// 1) Filter adults (age >= 18)
-// 2) Add 10 to their age (future age)
-// 3) Find total combined age
-const greaterAge = people
-.filter(age => age.age >= 18)
-.map (age => age.age + 10)
-.reduce((acc, age)=>{
-    return acc + age;
-});
+// const people = [
+//   { name: "Ram", age: 15 },
+//   { name: "Shyam", age: 22 },
+//   { name: "Hari", age: 30 }
+// ];
+// // 1) Filter adults (age >= 18)
+// // 2) Add 10 to their age (future age)
+// // 3) Find total combined age
+// const greaterAge = people
+// .filter(age => age.age >= 18)
+// .map (age => age.age + 10)
+// .reduce((acc, age)=>{
+//     return acc + age;
+// });
 
-console.log(greaterAge);
+// console.log(greaterAge);
+
+// const numbers = [10,20,30,40,55];
+// const sum = numbers.reduce((acc,number)=>{
+//     return acc+ number
+// },0)
+// console.log(sum);
+// const odd = numbers.filter(number => number % 2 !==0)
+// console.log(odd);
+// const number = numbers.map(number => number *2);
+// console.log(number);
+// ===================== promise function -------===---===---===--=--=-==-=--
+// const pinkyPromise = new Promise ((resolve,reject)=>{
+//     const momo = false;
+//     if(momo){
+//         resolve("is available");
+//     }else{
+//         reject("is unavailable");
+//     };
+// });
+//   pinkyPromise 
+//    .then ((message)=>{
+//     console.log(message);
+//    })
+//    .catch((err)=>{
+//     console.log(err);
+//    })
+
+// age = 25;
+
+// const canDrive = new Promise ((resolve,reject)=>{
+//     if (age >= 18){
+//         resolve ("yes you can drive");
+//     }else {
+//         reject("sorry you cant");
+//     };
+// });
+
+//    canDrive 
+//    .then((message)=>{
+//     console.log(message);
+//    })
+//    .catch((err)=>{
+//     console.log(err);
+//    });
+
+// Use a promise to check if even or odd. If it 
+// is even resolve it and if its odd  reject it.
+const numbers = [1,2,3,4,5,6,7];
+
+const checker = new Promise ((resolve,reject)=>{
+  return numbers % 2 !== 0 ? resolve
+
+})
