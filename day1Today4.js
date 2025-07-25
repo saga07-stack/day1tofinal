@@ -3114,9 +3114,184 @@ function garde (score){
 
 // Use a promise to check if even or odd. If it 
 // is even resolve it and if its odd  reject it.
-const numbers = [1,2,3,4,5,6,7];
 
-const checker = new Promise ((resolve,reject)=>{
-  return numbers % 2 !== 0 ? resolve
+// function checker (num){
+//  return new Promise ((resolve,reject)=>{
+//     if(num % 2== 0){
+//         resolve(`${num} is even`);
+//     }else{
+//         reject(`${num} is  a odd `);
+//     }
+//  })
+// }
 
-})
+// checker(5)
+// .then((message)=> console.log("Resolved",message))
+// .catch((err)=> console.log("reject",err));
+
+// Create a promise that resolves if username is ‘admin’ and password is ‘1234’
+
+// const userName = "admin";
+// const password = "1234";
+// const login =  function (input,pass){
+//     return new Promise ((resolve, reject)=>{
+//         if(userName === input && password === pass){
+//             resolve ("welcome "+input);
+//         }else {
+//             reject("invalid username or password");
+//         };
+//     });
+// };
+
+// login("admdin","1234")
+// .then((message)=> console.log(message))
+// .catch((rej)=> console.log(rej));
+
+
+// 3. Check temp and resolve if its less than 35 and reject if more that that. 
+// 4.
+// const checker = function (num){
+//     return new Promise ((resolve, reject)=>{
+//       if (num<35) {
+//         resolve ("accepted");
+//       }else{
+//         reject("rejected");
+//       };
+//     });
+// };
+
+// checker(40)
+// .then((message)=> console.log(message))
+// .catch((rej)=> console.log(rej));
+
+// Resolve if its valid email address by seeing it it includes @ or not. 
+// const emailChecker = function (input){
+//     return new Promise ((resolve, reject)=>{
+//         if (input.includes("@")){
+//             resolve("valid email");
+//         }else{
+//             reject("sorry invalid email");
+//         };
+//     });
+// };
+
+// emailChecker("sagarmatha6034gmail.com")
+// .then((message)=>console.log(message))
+// .catch((rej)=> console.log(rej));
+
+// Check if string length is more than 5, if yes resolve it otherwise reject it saying too short. 
+// const length = function (input){
+//     return new Promise ((resolve, reject)=>{
+//        input.length >5 ? resolve("resolved") : reject("too short");
+// });
+// };
+// length("sagar1")
+// .then((message)=> console.log(message))
+// .catch ((rej)=>console.log(rej));
+
+
+// Check if a number is divisible by 3
+
+// If divisible, resolve with a message "Number is divisible by 3".
+
+// If not, reject with "Number is not divisible by 3".
+
+// const numbers = function (input){
+//     return new Promise ((resolve, reject)=>{
+//         input % 3 === 0 ? resolve("Number is divisible by 3 ") : reject("Number is not divisible by 3");
+//     });
+// };
+
+// numbers(18)
+// .then ((message)=> console.log(message))
+// .catch((rej)=>console.log(rej));
+// ===========----==--=-=--=-==-=-
+// Check if a word is a palindrome
+
+// Resolve if the string reads the same forward and backward.
+
+// Reject otherwise.
+// let check = "";
+// const palindrome = function (input){
+// return new Promise ((resolve, reject)=>{
+//  for(let i = input.length; i<=0; i-- ){
+//       check += input[i]
+   
+//  };
+// if (check == input){
+//     resolve("resolve");
+//    }else{
+//     reject("rejected");
+//    };
+// });
+
+// };
+
+// palindrome("asa")
+// .then ((message)=> console.log(message))
+// .catch((rej) => console.log(rej));
+
+// Check if a string contains spaces
+
+// Resolve with "String contains spaces" if true.
+
+// Reject with "No spaces found" otherwise.
+
+// const string = function (input){
+//     return new Promise ((resolve, reject)=>{
+//         input.includes(" ") ? resolve(true) : reject(false);
+//     });
+// };
+
+// string("nepal is ")
+// .then ((message) => console.log(message))
+// .catch((rej)=> console.log(rej));
+
+// Check if a file name ends with .jpg or .png
+
+// Resolve with "Valid image file" if it ends with .jpg/.png.
+
+// Reject otherwise.
+
+// const file = function (input){
+//     return new Promise ((resolve, reject)=> {
+//      input.includes(".jpg") || input.includes(".png") ? resolve("Valid image file") : reject("rejected");
+//     });
+// };
+
+// file(".png")
+// .then((message)=> console.log(message))
+// .catch((rej)=> console.log(rej))
+
+// Check if a password is strong
+
+// Resolve if password length >= 8 and includes a number.
+
+// Reject otherwise.
+
+// const passwordChecker = function (password){
+//     return new Promise ((resolve , reject)=>{
+//      password.length>= 8 && password.includes(Number)  ? resolve("password is strong") : reject("Rejected");
+//     });
+// };
+
+// passwordChecker("sagarmatha12")
+// .then ((message)=> console.log(message))
+// .catch ((rej) => console.log( rej));
+// Check if a year is a leap year
+
+// Resolve with "Leap year" if divisible by 4 but not by 100 (unless divisible by 400).
+
+// Reject with "Not a leap year" otherwise.
+
+// Check if a given array is empty
+
+// Resolve with "Array is not empty" if it has elements.
+
+// Reject with "Array is empty" otherwise.
+
+// Check if today is a weekend (Saturday or Sunday)
+
+// Resolve with "It's the weekend!" if true.
+
+// Reject with "It's a weekday" otherwise.
