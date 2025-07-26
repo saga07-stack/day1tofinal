@@ -3271,18 +3271,62 @@ function garde (score){
 
 // const passwordChecker = function (password){
 //     return new Promise ((resolve , reject)=>{
-//      password.length>= 8 && password.includes(Number)  ? resolve("password is strong") : reject("Rejected");
+//         const hasnumbers = /[0-9]/.test(password);
+//         const hascapital = /[A-Z]/.test(password);
+//      password.length>= 8 && hasnumbers && hascapital? resolve("password is strong") : reject("Rejected");
 //     });
 // };
 
-// passwordChecker("sagarmatha12")
+// passwordChecker("Sagarmatha12")
 // .then ((message)=> console.log(message))
 // .catch ((rej) => console.log( rej));
+
+// const finalPassword = function (input) {
+//    return new Promise ((resolve, reject)=>{
+//     const hasNumbers = /[1-9]/.test(input);
+//     const hasCapital = /[A-Z]/.test(input);
+//     const hasSpeical = /["!#$$%&()=~@"]/.test(input);
+//     input.length >= 8 && hasCapital && hasNumbers && hasSpeical ? resolve("Password is strong") : reject("Password is week "); 
+//    });
+
+// };
+
+// finalPassword ("sagaR@321")
+//  .then(message => console.log(message))
+//  .catch(err => console.log(err));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Check if a year is a leap year
 
 // Resolve with "Leap year" if divisible by 4 but not by 100 (unless divisible by 400).
 
 // Reject with "Not a leap year" otherwise.
+
+
+// const leapYear = function (year) {
+//    return new Promise ((resolve, reject)=>{
+//    ( year % 4 === 0 && year % 100 !== 0) ||  year % 400 == 0 ? resolve(`${year} is a leap year`) : reject (`${year} is not a leap year`);
+//    });
+  
+// };
+
+//    leapYear(2000)
+//     .then(message => console.log(message))
+//     .catch(rej => console.log(rej));
+
 
 // Check if a given array is empty
 
@@ -3290,8 +3334,34 @@ function garde (score){
 
 // Reject with "Array is empty" otherwise.
 
+// const arrays = function (input) {
+//     return new Promise ((resolve, reject )=>{
+//         input === "" ? resolve("Array is empty") : reject("Array is not empty");
+//     });
+// };
+//  arrays("")
+//  .then(message => console.log(message))
+//  .catch(rej => console.log(rej));
+
+
+
+
+
 // Check if today is a weekend (Saturday or Sunday)
 
 // Resolve with "It's the weekend!" if true.
 
 // Reject with "It's a weekday" otherwise.
+
+// const weekday = function (day){
+//     const hasweekend = "saturday";
+//     const hasWeekday = /["monday - friday"]/.test(day);
+//     return new Promise ((resolve, reject)=>{
+//         day === hasweekend  ? resolve("It's the weekend") : reject("It's a weekday");
+        
+//     });
+// };
+
+//  weekday("saturday")
+//   .then(message => console.log(message))
+//   .catch(rej => console.log(rej));
