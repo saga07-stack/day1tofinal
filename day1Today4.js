@@ -3365,3 +3365,83 @@ function garde (score){
 //  weekday("saturday")
 //   .then(message => console.log(message))
 //   .catch(rej => console.log(rej));
+
+// const nums = [1, 2, 3, 4, 5];
+// const check = function (input){
+//     return new Promise ((resolve, reject)=>{
+//         input % 2 == 0? resolve("even") : reject("odd");
+//     })
+// }
+
+// check(10)
+// .then(message => console.log(message))
+// .catch(rej => console.log(rej));
+
+
+// fetch("https://jsonplaceholder.typicode.com/posts")
+// .then(response => response.json())
+// .then (data => console.log(data));
+
+
+
+// fetch("https://jsonplaceholder.typicode.com/posts")
+// .then(response => response.json())
+// .then (data =>{
+//     data.forEach(data => {
+        
+//    const heading = document.createElement("h1");
+//    heading.textContent = data.title;
+//    document.body.appendChild (heading);
+//     });
+
+// });
+
+
+
+
+// fetch("https://dummyjson.com/products")
+// .then (response => response.json())
+// .then ( data => {
+//     data.forEach (data =>{
+//         const picture = document.createElement("h1");
+//        picture .textContent= data.picture;
+//        document.body.appendChild(picture);
+//     })
+// })
+
+// fetch("https://dummyjson.com/products")
+// .then(response => response.json())
+// .then(data => {
+//     console.log(data.products);
+//     data.products.forEach(item => {
+//         const title = document.createElement("h1");
+//         title.textContent = item.title;
+//         document.body.appendChild(title);
+//         const description = document.createElement("p");
+//         description.textContent = item.description;
+//         document.body.appendChild(description);
+//         const img = document.createElement("img");
+//         img.src = item.img;
+//         document.body.appendChild(img);
+//     });
+// });
+
+
+
+fetch("https://dummyjson.com/products")
+.then(responsive => responsive.json())
+.then(data => {
+    console.log(data);
+    data.price.forEach(element => {
+        console.log(element);
+    });
+});
+
+
+
+
+
+
+
+
+

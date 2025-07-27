@@ -52,8 +52,39 @@
             
 //             alert("button clicked")
 //         })
-
+// fetch("https://dummyjson.com/products")
+// .then(response => response.json())
+// .then(data => {
+//     console.log(data.products);
+//     data.products.forEach(item => {
+//         const title = document.createElement("h1");
+//         title.textContent = item.title;
+//         document.body.appendChild(title);
+//         const description = document.createElement("p");
+//         description.textContent = item.description;
+//         document.body.appendChild(description);
+//         const img = document.createElement("img");
+//         img.src = item.thumbnail;
+//         document.body.appendChild(img);
+//     });
+// });
       
+
+
+
+
+    fetch("https://dummyjson.com/products")
+    .then(response => response.json())
+    .then(data =>  {
+        console.log(data);
+        data.products.forEach(element => {
+            const  heading = document.createElement("h1");
+            heading.textContent = data.products;
+            document.body.appendChild(heading);
+            
+        });
+        
+    });
     </script>
 </body>
 </html>
