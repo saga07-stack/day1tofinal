@@ -3428,17 +3428,51 @@ function garde (score){
 
 
 
-fetch("https://dummyjson.com/products")
-.then(responsive => responsive.json())
+
+// 1. https://jsonplaceholder.typicode.com/posts
+//     1. Fetch all the data and console.log it.
+//     2. Show only 10 posts using filter. 
+//     3. Display only the title and body of blog using map. 
+//     4. Use DOM to display all the titles in heading. 
+//     5. Use Dom to display title as well as posts.
+
+
+
+// fetch("https://jsonplaceholder.typicode.com/posts")
+// .then (response => response.json())
+// .then (data => {
+//     const tenId = data.filter(datas => datas.id <= 10)
+//     .map(titleNbody => {
+//      const titles =   titleNbody.title;
+//      const postst =   titleNbody.body;
+//      heading = document.createElement('h1');
+//      heading.innerText = titles;
+//      document.body.appendChild(heading);
+//      posts = document.createElement('p');
+//      posts.innerText = postst;
+//      document.body.appendChild(posts);
+
+//     })
+
+// })
+
+// 2. https://dummyjson.com/products
+//     1. Fetch and console.log all the data
+//     2. Show only title, description and price in console.log using map
+//     3. Show the title and description using dom
+//     4. show the image along with title and desc
+
+
+
+fetch('https://dummyjson.com/products')
+.then(response => response.json())
 .then(data => {
-    console.log(data);
-    data.price.forEach(element => {
-        console.log(element);
+    data.products.map(tdp => {
+        console.log(tdp.title);
+        console.log(tdp.description);
+        console.log(tdp.price);
     });
 });
-
-
-
 
 
 
