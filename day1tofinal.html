@@ -107,6 +107,13 @@ fetch('https://dummyjson.com/products')
         const title1 = document.createElement('h1');
         title1.innerText = tdps.title;
         document.body.appendChild(title1);
+        const descriptions = document.createElement('h4');
+        descriptions.innerHTML = tdps.description;
+        document.body.appendChild(descriptions);
+        const prices = document.createElement('p');
+        prices.innerText = tdps.price;
+        document.body.appendChild(prices);
+
     });
 })
 
