@@ -3463,19 +3463,71 @@ function garde (score){
 //     4. show the image along with title and desc
 
 
-
-fetch('https://dummyjson.com/products')
-.then(response => response.json())
-.then(data => {
-    data.products.map(tdp => {
-        console.log(tdp.title);
-        console.log(tdp.description);
-        console.log(tdp.price);
-    });
-});
+// Display only the title and body of blog using map. 
 
 
+// fetch("https://jsonplaceholder.typicode.com/posts")
+// .then(response => response.json())
+// .then(data => {
+//     data.map(items => {
+//         console.log(items.title);
+//         console.log(items.body);
+//         console.log("----======--===-");
+//     })
+
+//     });
+
+// fetch("https://jsonplaceholder.typicode.com/posts")
+// .then(response => response.json())
+// .then(data => {
+//     const tNd = data.map(items => (
+//         {
+//            title : items.title,
+//           body : items.body,
+//        }
+//     ));
+//     console.log(tNd);
+// });
+
+
+// async function loadData (){
+// const response =  await fetch ("https://jsonplaceholder.typicode.com/posts")
+// const data = await response.json();
+// console.log(data);
+// }
+// loadData();
 
 
 
 
+//  async function loadData () {
+// const response = await fetch("https://jsonplaceholder.typicode.com/posts")
+// const data = await response.json();
+// console.log(data);
+//  }
+//  loadData();
+
+
+
+ async function TenData () {
+ const response = await fetch("https://jsonplaceholder.typicode.com/posts")
+const data = await response.json();
+ const title =   data.filter(items => items.id <= 10);
+console.log(title);
+ };
+ TenData();
+
+
+ async function image () {
+   const response = await fetch ("https://dummyjson.com/products");
+   const data = await response .json();
+//    console.log(data);
+   data.products.foreach(element =>{
+    const img = document.createElement("img");
+    img.src = element.thumbnail;
+    document.body.appendChild(img);
+   })
+
+ }
+
+ image()
