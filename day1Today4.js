@@ -3509,25 +3509,78 @@ function garde (score){
 
 
 
- async function TenData () {
- const response = await fetch("https://jsonplaceholder.typicode.com/posts")
-const data = await response.json();
- const title =   data.filter(items => items.id <= 10);
-console.log(title);
- };
- TenData();
+//  async function TenData () {
+//  const response = await fetch("https://jsonplaceholder.typicode.com/posts")
+// const data = await response.json();
+//  const title =   data.filter(items => items.id <= 10);
+// console.log(title);
+//  };
+//  TenData();
 
 
- async function image () {
-   const response = await fetch ("https://dummyjson.com/products");
-   const data = await response .json();
-//    console.log(data);
-   data.products.foreach(element =>{
-    const img = document.createElement("img");
-    img.src = element.thumbnail;
-    document.body.appendChild(img);
-   })
+//  async function image () {
+//    const response = await fetch ("https://dummyjson.com/products");
+//    const data = await response .json();
+// //    console.log(data);
+//    data.products.foreach(element =>{
+//     const img = document.createElement("img");
+//     img.src = element.thumbnail;
+//     document.body.appendChild(img);
+//    })
 
- }
+//  }
 
- image()
+//  image()
+
+
+// const nameList = async function () {
+
+// const response = await fetch("https://jsonplaceholder.typicode.com/users");
+// const data =  await response.json();
+// const userName = data.map(userNames => userNames.name);
+//  const nameList = document.createElement("li");
+//  nameList.innerText = userName;
+//  document.body.appendChild(nameList);
+
+
+// } ;
+
+// nameList()
+
+
+function greet (name){
+    return function (greeting){
+        return `${greeting} ${name}`
+    };
+};
+
+const name = greet("hello");
+console.log(name("sagar"));
+
+function outer() {
+let name = "sagar";
+function inner () {
+    console.log(name);
+}
+inner();
+};
+
+outer()
+
+function exit (){
+    let count = 0;
+
+     return function enter (){
+        count ++;
+        console.log(count);
+    };
+};
+const sagar = exit();
+sagar();
+sagar();
+
+function sum (...number){
+    return number.reduce((acc, number)=> acc + number ,0);
+};
+
+console.log(sum(1,2,3,4));
