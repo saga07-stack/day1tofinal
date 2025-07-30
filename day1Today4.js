@@ -3548,39 +3548,84 @@ function garde (score){
 // nameList()
 
 
-function greet (name){
-    return function (greeting){
-        return `${greeting} ${name}`
-    };
-};
+// function greet (name){
+//     return function (greeting){
+//         return `${greeting} ${name}`
+//     };
+// };
 
-const name = greet("hello");
-console.log(name("sagar"));
+// const name = greet("hello");
+// console.log(name("sagar"));
 
-function outer() {
-let name = "sagar";
-function inner () {
-    console.log(name);
-}
-inner();
-};
+// function outer() {
+// let name = "sagar";
+// function inner () {
+//     console.log(name);
+// }
+// inner();
+// };
 
-outer()
+// outer()
 
-function exit (){
-    let count = 0;
+// function exit (){
+//     let count = 0;
 
-     return function enter (){
-        count ++;
-        console.log(count);
-    };
-};
-const sagar = exit();
-sagar();
-sagar();
+//      return function enter (){
+//         count ++;
+//         console.log(count);
+//     };
+// };
+// const sagar = exit();
+// sagar();
+// sagar();
 
-function sum (...number){
-    return number.reduce((acc, number)=> acc + number ,0);
-};
+// function sum (...number){
+//     return number.reduce((acc, number)=> acc + number ,0);
+// };
 
-console.log(sum(1,2,3,4));
+// console.log(sum(1,2,3,4));                                                          
+
+// const numbers = [1, 2, 3];
+// const result = numbers.map(num => {
+//   if (num % 2 === 0) return;
+//   return num * 2;
+// });
+// console.log(result);
+
+// const user = { name: "Ajay" };
+// const { name, age = 25 } = user;
+// console.log(name, age);
+
+
+// const items = [1, 2, 3, 4, 5];
+// const sumEven = items
+//   .filter(num => num % 2 === 0)
+//   .reduce((acc, curr) => acc + curr, 0);
+// console.log(sumEven);
+
+// async function fetchData() {
+//   const response = await fetch("https://jsonplaceholder.typicode.com/users");
+//   const data = await response.json();
+//   console.log(data.length);
+// }
+// fetchData();
+
+// const person = {
+//   name: "Sam",
+//   greet() {
+//     return `Hi, I'm ${this.name}`;
+//   }
+// };
+// const greetFn = person.greet;
+// console.log(greetFn());
+
+
+<button id="btn">Click Me</button>
+<script>
+  const btn = document.getElementById("btn");
+  // Add a click event that logs "Hello" only once
+  btn.addEventListener("click",sayHello());
+  function sayHello(){
+    btn.innerText = "Hello";
+  }
+</script>
