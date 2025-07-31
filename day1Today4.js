@@ -3620,12 +3620,47 @@ function garde (score){
 // console.log(greetFn());
 
 
-<button id="btn">Click Me</button>
-<script>
-  const btn = document.getElementById("btn");
-  // Add a click event that logs "Hello" only once
-  btn.addEventListener("click",sayHello());
-  function sayHello(){
-    btn.innerText = "Hello";
-  }
-</script>
+const details = {
+   name: "sagar",
+   location : "chitwan",
+   email: "poudelsagar@icloud.com",
+
+
+};
+
+console.log(Object.entries(details));
+ 
+
+ const users = {
+    name: "poudel",
+    email: "poudelsagar@icloud.com",
+    location : "nawalparasi",
+ };
+ console.log(Object.keys(users));
+
+ const userDetails = {
+    name:"sagar",
+    class: "level 4",
+    enail: "sagarmatha603@gmail.com",
+ };
+
+ console.log(Object.values(userDetails));
+
+
+ const original = { name: "ram"};
+ const original1 = { class : "10"}
+ const copy = Object.assign({}, original,original1);
+
+
+ const user = {
+    name: "shyam"
+ };
+ const descriptor = Object.getOwnPropertyDescriptor
+ (user, "name");
+ console.log(descriptor);
+
+ Object.defineProperties(descriptor, "name",{
+    writable: false
+ })
+ user.name = "shyam";
+ console.log(descriptor);
