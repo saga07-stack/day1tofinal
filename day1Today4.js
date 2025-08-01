@@ -3620,47 +3620,92 @@ function garde (score){
 // console.log(greetFn());
 
 
-const details = {
-   name: "sagar",
-   location : "chitwan",
-   email: "poudelsagar@icloud.com",
+// const details = {
+//    name: "sagar",
+//    location : "chitwan",
+//    email: "poudelsagar@icloud.com",
 
 
-};
+// };
 
-console.log(Object.entries(details));
+// console.log(Object.entries(details));
  
 
- const users = {
-    name: "poudel",
-    email: "poudelsagar@icloud.com",
-    location : "nawalparasi",
+//  const users = {
+//     name: "poudel",
+//     email: "poudelsagar@icloud.com",
+//     location : "nawalparasi",
+//  };
+//  console.log(Object.keys(users));
+
+//  const userDetails = {
+//     name:"sagar",
+//     class: "level 4",
+//     enail: "sagarmatha603@gmail.com",
+//  };
+
+//  console.log(Object.values(userDetails));
+
+
+//  const original = { name: "ram"};
+//  const original1 = { class : "10"}
+//  const copy = Object.assign({}, original,original1);
+
+
+//  const user = {
+//     name: "shyam"
+//  };
+//  const descriptor = Object.getOwnPropertyDescriptor
+//  (user, "name");
+//  console.log(descriptor);
+
+//  Object.defineProperties(descriptor, "name",{
+//     writable: false
+//  })
+//  user.name = "shyam";
+//  console.log(descriptor);
+
+
+const data = [1, 2, 3, 4, 5, 6, 7, 8];
+
+// Task: Return the square of all even numbers greater than 4
+const squares = data
+  .filter(item => item>4 && item % 2 == 0)
+  .map(item => item * item);
+  console.log(squares);
+
+
+const str = "acab";
+
+// Task: Find and return the first repeated character
+ for (let i = 1; i<=str.length-1; i++ ){
+    if(str[i]=== str[0]){
+        console.log(`${str[i]}`);
+    }
  };
- console.log(Object.keys(users));
 
- const userDetails = {
-    name:"sagar",
-    class: "level 4",
-    enail: "sagarmatha603@gmail.com",
- };
+//  const obj = {
+//   name: "Ajay",
+//   age: null,
+//   email: undefined,
+//   active: true
+// };
 
- console.log(Object.values(userDetails));
+// // Task: Return a new object without null or undefined values
+//  const newObject = Object.entries(obj)
+//    .reduce((acc, current)=>({
+   
+//    }))
+//    console.log(newObject);
 
 
- const original = { name: "ram"};
- const original1 = { class : "10"}
- const copy = Object.assign({}, original,original1);
+const users = [
+  { id: 1, name: "Ajay" },
+  { id: 2, name: "Sagar" },
+  { id: 1, name: "Ajay" }
+];
 
-
- const user = {
-    name: "shyam"
- };
- const descriptor = Object.getOwnPropertyDescriptor
- (user, "name");
- console.log(descriptor);
-
- Object.defineProperties(descriptor, "name",{
-    writable: false
- })
- user.name = "shyam";
- console.log(descriptor);
+// Task: Remove duplicate entries based on `id`
+const duplicate = users.filter(item =>{
+  item.id == 
+})
