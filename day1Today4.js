@@ -3699,13 +3699,95 @@ const str = "acab";
 //    console.log(newObject);
 
 
-const users = [
-  { id: 1, name: "Ajay" },
-  { id: 2, name: "Sagar" },
-  { id: 1, name: "Ajay" }
-];
+// const users = [
+//   { id: 1, name: "Ajay" },
+//   { id: 2, name: "Sagar" },
+//   { id: 1, name: "Ajay" }
+// ];
 
-// Task: Remove duplicate entries based on `id`
-const duplicate = users.filter(item =>{
-  item.id == 
-})
+// // Task: Remove duplicate entries based on `id`
+// const duplicate = users.filter(item =>{
+
+// });
+
+// console.log(duplicate);
+
+// const nums = [1, 2, 3, 4];
+
+// // Task: Return a new array where all numbers are doubled
+// // Expected Output: [2, 4, 6, 8]
+
+//  const Double = nums.map(item => item * 2);
+//  console.log(Double);
+
+// const nums = [5, 6, 7, 8, 9];
+
+// // Task: Return a new array with only even numbers
+// // Expected Output: [6, 8]
+// const even = nums.filter(item => item % 2 === 0);
+// console.log(even);
+
+// const words = ["apple", "banana", "grape"];
+
+// // Task: Return a new array with all words capitalized
+// // Expected Output: ["APPLE", "BANANA", "GRAPE"]
+// const capitalized = words.map(item => item.toUpperCase());
+// console.log(capitalized);
+
+// const numbers = [10, 20, 30];
+
+// // Task: Return the sum of all numbers
+// // Expected Output: 60
+// const sum = numbers.reduce((acc, currentValue)=>{
+//   return acc += currentValue;
+// },0);
+// console.log(sum);
+
+
+// const words = ["cat", "tiger", "elephant"];
+
+// // Task: Return the longest word
+// // Expected Output: "elephant"
+// const longest = words.reduce((acc, current)=>{
+//     return acc.length > current.length ? acc : current;
+// });
+// console.log(longest);
+
+// const numbers = [1, 2, 1, 3, 2, 1, 4];
+
+// // Task: Return how many times the number `1` appears
+// // Expected Output: 3
+
+// const number = numbers.reduce((acc, current)=>{
+//  return  current === 1 ? acc+1 : acc;
+// },0);
+// console.log(number);
+
+const nums = [1, 2, 1, 3, 2, 1, 4];
+
+// Task: Return an object like {1: 3, 2: 2, 3: 1, 4: 1}
+const num = nums.reduce((acc, current)=> {
+    acc[current] = (acc[current] || 0)+ 1;
+    return acc;
+},{});
+
+console.log(num);
+
+const sentence = "the cat and the dog and the mouse";
+
+// Task: Return an object like:
+// {
+//   the: 3,
+//   cat: 1,
+//   and: 2,
+//   dog: 1,
+//   mouse: 1
+// }
+  
+  const sentences = sentence.split(" ")
+  .reduce((acc,current)=>{
+     acc[current] = (acc[current] || 0) +1 ;
+     return acc;
+  },{});
+
+  console.log(sentences);
