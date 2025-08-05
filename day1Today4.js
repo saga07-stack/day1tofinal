@@ -3791,3 +3791,12 @@ const sentence = "the cat and the dog and the mouse";
   },{});
 
   console.log(sentences);
+
+
+
+  const str1 = "i am the one one who is suck at any things am the one is a i";
+const strs1 = str1.split(" ")
+.reduce((acc, current )=>{
+    acc[current] = (acc[current]|| 0) +1;
+},{});
+console.log(strs1);
