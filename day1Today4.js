@@ -3666,23 +3666,23 @@ function garde (score){
 //  console.log(descriptor);
 
 
-const data = [1, 2, 3, 4, 5, 6, 7, 8];
+// const data = [1, 2, 3, 4, 5, 6, 7, 8];
 
 // Task: Return the square of all even numbers greater than 4
-const squares = data
-  .filter(item => item>4 && item % 2 == 0)
-  .map(item => item * item);
-  console.log(squares);
+// const squares = data
+//   .filter(item => item>4 && item % 2 == 0)
+//   .map(item => item * item);
+//   console.log(squares);
 
 
-const str = "acab";
+// const str = "acab";
 
-// Task: Find and return the first repeated character
- for (let i = 1; i<=str.length-1; i++ ){
-    if(str[i]=== str[0]){
-        console.log(`${str[i]}`);
-    }
- };
+// // Task: Find and return the first repeated character
+//  for (let i = 1; i<=str.length-1; i++ ){
+//     if(str[i]=== str[0]){
+//         console.log(`${str[i]}`);
+//     }
+//  };
 
 //  const obj = {
 //   name: "Ajay",
@@ -3763,17 +3763,17 @@ const str = "acab";
 // },0);
 // console.log(number);
 
-const nums = [1, 2, 1, 3, 2, 1, 4];
+// const nums = [1, 2, 1, 3, 2, 1, 4];
 
-// Task: Return an object like {1: 3, 2: 2, 3: 1, 4: 1}
-const num = nums.reduce((acc, current)=> {
-    acc[current] = (acc[current] || 0)+ 1;
-    return acc;
-},{});
+// // Task: Return an object like {1: 3, 2: 2, 3: 1, 4: 1}
+// const num = nums.reduce((acc, current)=> {
+//     acc[current] = (acc[current] || 0)+ 1;
+//     return acc;
+// },{});
 
-console.log(num);
+// console.log(num);
 
-const sentence = "the cat and the dog and the mouse";
+// const sentence = "the cat and the dog and the mouse";
 
 // Task: Return an object like:
 // {
@@ -3784,19 +3784,60 @@ const sentence = "the cat and the dog and the mouse";
 //   mouse: 1
 // }
   
-  const sentences = sentence.split(" ")
-  .reduce((acc,current)=>{
-     acc[current] = (acc[current] || 0) +1 ;
-     return acc;
-  },{});
+//   const sentences = sentence.split(" ")
+//   .reduce((acc,current)=>{
+//      acc[current] = (acc[current] || 0) +1 ;
+//      return acc;
+//   },{});
 
-  console.log(sentences);
+//   console.log(sentences);
 
 
 
-  const str1 = "i am the one one who is suck at any things am the one is a i";
-const strs1 = str1.split(" ")
-.reduce((acc, current )=>{
-    acc[current] = (acc[current]|| 0) +1;
-},{});
-console.log(strs1);
+//   const str1 = "i am the one one who is suck at any things am the one is a i";
+// const strs1 = str1.split(" ")
+// .reduce((acc, current )=>{
+//     acc[current] = (acc[current]|| 0) +1;
+// },{});
+// console.log(strs1);
+
+
+
+// const stri = "saagar"; 
+// let isFound = false;
+// for (let i = 0; i<stri.length; i++){
+//  if (stri[i] === "a"){
+// isFound = true;
+// break
+//  };
+// };
+//  if(isFound){
+//     console.log("yes");
+//  }else{
+//     console.log("no");
+    
+//  };
+
+// const ap = {
+//     first: "sagar",
+// }
+// for (const element in ap){
+//     console.log(element)
+// }
+
+const nameList = ["aman","sagar","gokul","sanumaya","sandip"];
+nameList.forEach(nameLists => console.log(nameLists));
+
+const list = function  (namelists1) {
+console.log(namelists1)
+};
+nameList.forEach(list);
+
+const socialObjs = [
+    {name : "twitter", url : "https:twitter.com"},
+    {name : "twitter", url : "https:twitter.com"},
+    {name : "twitter", url : "https:twitter.com"},
+    {name : "twitter", url : "https:twitter.com"},
+];
+
+socialObjs.forEach (socialObj => console.log(socialObj.url));
